@@ -1,0 +1,68 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopVi</title>
+    <script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+
+    <link rel="icon" type="image/x-icon" href=""/>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap-grid.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap-reboot.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+<div class="header-navigation">
+    <div class="row">
+        <div class="col-sm-2 col-md-1 ">
+            <img src="{% static 'img/stopVilogo.gif' %}" class="img-fluid"/>
+        </div>
+
+
+        <div class="col">
+            <div class="navbar-top">
+                <nav class="row">
+                    <button id="toogleButton"class="col btn btn-donate">Menu</button>
+                    <a class="col-sm-12 col-md-auto btn nav-btn" href="#">О НАС</a>
+                    <a class="col-sm-12 col-md-auto btn nav-btn" href="#">КАК МЫ РАБОТАЕМ</a>
+                    <a class="col-sm-12 col-md-auto btn nav-btn " href="#">ГДЕ МЫ РАБОТАЕМ</a>
+                    <a class="col-sm-12 col-md-auto btn nav-btn " href="#">МЕДИА БЛОГ</a>
+                    <a class="col-sm-12 col-md-auto btn nav-btn" href="#">ЖИЗНЕННЫЕ ИСТОРИИ</a>
+                    <a class="col-sm-12 col-md-auto btn btn-donate" href="#">ПОЖЕРТВОВАТЬ</a>
+
+                </nav>
+            </div>
+        </div>
+
+
+        <div class="col-sm-2 offset-sm-5 offset-md-1 col-md-1">
+            <div class="lang-group row" role="group" aria-label="...">
+                <a class="col btn btn-lang left" href="#end">RU</a>
+                <a class="col btn btn-lang right" href="#end">EN</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+
+    </div>
+</div>
+
+{% block content %}
+
+{% endblock %}
+<div>
+    <footer class="footer">
+        <div class="loggo"></div>
+        <h5>Stop Vi 2018</h5>
+    </footer>
+</div>
+
+<script src="{% static 'js/script.js' %}"></script>
+<script src="{% static 'js/bootstrap.js' %}"></script>
+<script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+</body>
+</html>`
