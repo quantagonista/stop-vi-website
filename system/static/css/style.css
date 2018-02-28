@@ -17,7 +17,7 @@ p {
 }
 
 body {
-    font-family: 'Ubuntu Condensed', serif;
+    font-family: "Gilroy Light", serif;
     background-color: #559ed6;
 }
 
@@ -101,6 +101,8 @@ h1, .h1 {
 .startpage {
     height: 60vh;
     width: 100%;
+    background-image: url("../img/mount.jpg");
+    background-size: cover;
 }
 
 .land-text {
@@ -132,7 +134,13 @@ h1, .h1 {
     font-weight: bold;
     margin-bottom: 20px;
 }
-
+.f{
+    margin-top: 2vw;
+    padding-bottom: 2vw;
+}
+.brd{
+    border: 2px solid white;
+}
 .story {
     font-family: "Gilroy Light", serif;
     border-left: 2px solid #559ed6;
@@ -140,18 +148,30 @@ h1, .h1 {
     padding: 1vw;
     flex: 1;
 }
-
+.bg-fade{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.img-sign{
+    width: 60%;
+    padding: 2vw;
+    position: relative;
+    top: -10vw;
+    left: 5vw;
+    border: 15px solid #559ed6;
+}
 .logo {
     max-width: 100%;
     display: block;
     width: 10vw;
     height: 10vw;
     overflow: hidden;
-    margin: 2vw;
     border-radius: 50%;
 
 }
 
+.border-left{
+    border-left: white 2px solid;
+}
 .btn-lang {
     color: #559ed6;
     background-color: white;
@@ -224,7 +244,7 @@ h1, .h1 {
     font-size: 15px;
 }
 
-@media screen and (max-width: 719px) {
+@media screen and (max-width: 960px) {
 
     .navbar-top {
         padding: 1vw;
