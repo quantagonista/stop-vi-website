@@ -3,7 +3,7 @@
 {% load i18n %}
 
 {% block content %}
-
+    {% get_current_language as LANGUAGE_CODE %}
 
 
 
@@ -24,7 +24,8 @@
     <div class="block white">
         <p class="desc h5 thin col-md-6 offset-md-3">
 
-            {% blocktrans %}Общественный Фонд “Стоп Ви” – был создан с целью профилактики и предотвращения любой формы насилия при помощи образования и активного использования медиа.{% endblocktrans %}
+            {% blocktrans %}Общественный Фонд “Стоп Ви” – был создан с целью профилактики и предотвращения любой формы
+                насилия при помощи образования и активного использования медиа.{% endblocktrans %}
         </p>
     </div>
 
@@ -39,7 +40,9 @@
                         <img class="img-fluid" src="{% static 'img/violence.gif' %}">
                     </div>
                     <p class="col-sm-12 col-md-7 h5 thin">
-                        {% blocktrans %}Мы занимаемся профилактикой любого вида насилия посредством медиа кампаний и активного информирования о проблемах насилия на медиа пространстве Кыргызстана.{% endblocktrans %}
+                        {% blocktrans %}Мы занимаемся профилактикой любого вида насилия посредством медиа кампаний и
+                            активного информирования о проблемах насилия на медиа пространстве
+                            Кыргызстана.{% endblocktrans %}
                     </p>
                 </div>
 
@@ -48,7 +51,8 @@
                         <img class="img-fluid" src="{% static 'img/education.gif' %}">
                     </div>
                     <p class="col-sm-12 col-md-7 h5 thin">
-                        {% blocktrans %}Мы обучаем уязвимые слои населения Кыргызстане, находящиеся в группе риска, практическим и жизненным навыкам.{% endblocktrans %}
+                        {% blocktrans %}Мы обучаем уязвимые слои населения Кыргызстане, находящиеся в группе риска,
+                            практическим и жизненным навыкам.{% endblocktrans %}
                     </p>
                 </div>
                 <div class="row">
@@ -57,7 +61,8 @@
                     </div>
                     <p class="col-sm-12 col-md-7 h5 thin">
 
-                        {% blocktrans %}Мы создаем контент с вдохновляющими историями для продвижения положительного образа жизни без насилия.{% endblocktrans %}
+                        {% blocktrans %}Мы создаем контент с вдохновляющими историями для продвижения положительного
+                            образа жизни без насилия.{% endblocktrans %}
 
 
                     </p>
@@ -70,7 +75,8 @@
                     <p class="font-weight-bold h3">{% trans 'Всецелое развитие человека' %}.</p>
                     <p class="col-md-8 offset-md-4 h5 thin">
 
-                        {% blocktrans %}Мы ценим всецелое развитие человека: духовное, эмоциональное, физическое и интеллектуальное.{% endblocktrans %}
+                        {% blocktrans %}Мы ценим всецелое развитие человека: духовное, эмоциональное, физическое и
+                            интеллектуальное.{% endblocktrans %}
 
                     </p>
                 </div>
@@ -79,7 +85,8 @@
                 <div class="col">
                     <p class="font-weight-bold h3">{% trans 'Эмоциональное исцеление и восстановление' %}.</p>
                     <p class="col-md-8 offset-md-4 h5 thin ">
-                        {% blocktrans %}Мы верим в эмоциональное исцеление и восстановление людей, переживших насилие.{% endblocktrans %}
+                        {% blocktrans %}Мы верим в эмоциональное исцеление и восстановление людей, переживших
+                            насилие.{% endblocktrans %}
 
                     </p>
                 </div>
@@ -88,7 +95,8 @@
                     <p class="font-weight-bold h3">{% trans 'Раскрытие потенциала человека' %}.</p>
                     <p class="col-md-8 offset-md-4 h5 thin">
 
-                        {% blocktrans %}Мы верим, что человек был создан Богом с неограниченным потенциалом, который мы хотим помочь человеку раскрыть.{% endblocktrans %}
+                        {% blocktrans %}Мы верим, что человек был создан Богом с неограниченным потенциалом, который мы
+                            хотим помочь человеку раскрыть.{% endblocktrans %}
 
 
                     </p>
@@ -97,7 +105,8 @@
                 <div class="col">
                     <p class="font-weight-bold h3">{% trans 'Равные возможности.' %}</p>
                     <p class="col-md-8 offset-md-4 h5 thin">
-                        {% blocktrans %}Мы верим, все имеют право на равные возможности в обучении, развитии и трудоустройстве{% endblocktrans %}
+                        {% blocktrans %}Мы верим, все имеют право на равные возможности в обучении, развитии и
+                            трудоустройстве{% endblocktrans %}
 
 
                     </p>
@@ -112,7 +121,11 @@
 
     <h1 class="blue">{% trans 'КАК МЫ РАБОТАЕМ:' %}</h1>
     <div class="block white">
-        <img src="{% static 'img/stop-vi-ru.gif' %}" alt="" class="img-fluid">
+        {% if LANGUAGE_CODE == 'ru' %}
+            <img src="{% static 'img/stop-vi-ru.gif' %}" alt="" class="img-fluid">
+        {% else %}
+            <img src="{% static 'img/stop-vi-en.gif' %}" alt="" class="img-fluid">
+        {% endif %}
     </div>
 
 
