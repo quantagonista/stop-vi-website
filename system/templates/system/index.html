@@ -1,118 +1,143 @@
 {% extends 'system/base.html' %}
 {% load static %}
 {% load i18n %}
-{% block content %}
-    <div class=" block blue jumbotron startpage">
 
+{% block content %}
+
+
+
+    <div class="btn-group-sm" role="group" aria-label="...">
+        <form action="{% url 'set_language' %}" method="post">
+            {% csrf_token %}
+            <input name="language" type="submit" class="btn btn-lang" value="en"/>
+            <input name="language" type="submit" class="btn btn-lang" value="ru"/>
+        </form>
+    </div>
+
+
+    <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
+    <input name="next" type="hidden" value="{{ redirect_to }}" />
+    <select name="language">
+
+            <option value="ru">Ru</option>
+            <option value="en">En</option>
+
+    </select>
+    <input type="submit" value="Go" />
+</form>
+
+
+
+
+    <div class=" block blue jumbotron startpage">
         <div class="row ">
             <div class="brd bg-fade col-sm-12 col-md-8 offset-md-2">
-                <h1 class="display-3 text-center">ОСТАНОВИМ НАСИЛИЕ</h1>
-                <p class=" h5 col-sm-8 col-md-8 offset-md-2 text-uppercase">Мы видим Кыргызстан, в котором высшей
-                    ценностью признается
-                    достоинство
-                    человека и право
-                    иметь жизнь,
-                    свободную от
-                    любой
-                    формы
-                    насилия.</p>
+                <h1 class="display-3 text-center">{% trans 'ОСТАНОВИМ НАСИЛИЕ' %}</h1>
+                <p class=" h5 col-sm-8 col-md-8 offset-md-2 text-uppercase">
+                    {% trans 'Мы видим Кыргызстан, в котором высшей ценностью признается достоинство человека и право иметь жизнь, свободную от любой формы насилия.' %}
+                </p>
             </div>
         </div>
+
     </div>
 
-    <h1 class="white">О НАС</h1>
+    <h1 class="white">{% trans 'О НАС' %}</h1>
     <div class="block white">
         <p class="desc h5 thin col-md-6 offset-md-3">
-            Общественный Фонд “Стоп Ви” – был создан с целью профилактики и предотвращения любой формы насилия при
-            помощи
-            образования и активного использования медиа.</p>
+
+            {% blocktrans %}Общественный Фонд “Стоп Ви” – был создан с целью профилактики и предотвращения любой формы насилия при помощи образования и активного использования медиа.{% endblocktrans %}
+        </p>
     </div>
+
+
     <div class="block white">
         <div class="row">
             <div class="col-sm-12 col-md-6 text-left white">
-                <div id="shape-2" class="text-left h1 blue"> НАША МИССИЯ:</div>
+                <div id="shape-2" class="text-left h1 blue"> {% trans 'НАША МИССИЯ:' %}</div>
 
                 <div class="row">
                     <div class="col-sm-6  col-md-3">
                         <img class="img-fluid" src="{% static 'img/violence.gif' %}">
                     </div>
-                    <p class="col-sm-12 col-md-7 h5 thin">Мы занимаемся профилактикой любого вида насилия посредством
-                        медиа
-                        кампаний и
-                        активного
-                        информирования о
-                        проблемах насилия на медиа пространстве Кыргызстана.</p>
+                    <p class="col-sm-12 col-md-7 h5 thin">
+                        {% blocktrans %}Мы занимаемся профилактикой любого вида насилия посредством медиа кампаний и активного информирования о проблемах насилия на медиа пространстве Кыргызстана.{% endblocktrans %}
+                    </p>
                 </div>
 
                 <div class="row">
                     <div class="col-sm-6 col-md-3">
                         <img class="img-fluid" src="{% static 'img/education.gif' %}">
                     </div>
-                    <p class="col-sm-12 col-md-7 h5 thin">Мы обучаем уязвимые слои населения Кыргызстане, находящиеся в
-                        группе
-                        риска,
-                        практическим и жизненным
-                        навыкам.</p>
+                    <p class="col-sm-12 col-md-7 h5 thin">
+                        {% blocktrans %}Мы обучаем уязвимые слои населения Кыргызстане, находящиеся в группе риска, практическим и жизненным навыкам.{% endblocktrans %}
+                    </p>
                 </div>
                 <div class="row">
                     <div class="col-sm-6 col-md-3 h5 thin">
                         <img class="img-fluid" src="{% static 'img/content.gif' %}">
                     </div>
                     <p class="col-sm-12 col-md-7 h5 thin">
-                        Мы создаем контент с вдохновляющими историями для продвижения положительного образа жизни без
-                        насилия.</p>
+
+                        {% blocktrans %}Мы создаем контент с вдохновляющими историями для продвижения положительного образа жизни без насилия.{% endblocktrans %}
+
+
+                    </p>
                 </div>
             </div>
 
             <div id="shape" class="col-sm-12 col-md-6 text-right blue">
                 <div class="col">
-                    <div class="text-right h1 text-uppercase"> НАШИ ЦЕННОСТИ:</div>
-                    <p class="font-weight-bold h3">Всецелое развитие человека.</p>
-                    <p class="col-md-8 offset-md-4 h5 thin">Мы ценим всецелое развитие человека: духовное,
-                        эмоциональное, физическое и
-                        интеллектуальное.</p>
+                    <div class="text-right h1 text-uppercase">{% trans 'НАШИ ЦЕННОСТИ' %} :</div>
+                    <p class="font-weight-bold h3">{% trans 'Всецелое развитие человека' %}.</p>
+                    <p class="col-md-8 offset-md-4 h5 thin">
+
+                        {% blocktrans %}Мы ценим всецелое развитие человека: духовное, эмоциональное, физическое и интеллектуальное.{% endblocktrans %}
+
+                    </p>
                 </div>
 
 
                 <div class="col">
-                    <p class="font-weight-bold h3">Эмоциональное исцеление и восстановление.</p>
-                    <p class="col-md-8 offset-md-4 h5 thin "> Мы верим в эмоциональное исцеление и восстановление людей,
-                        переживших
-                        насилие.</p>
+                    <p class="font-weight-bold h3">{% trans 'Эмоциональное исцеление и восстановление' %}.</p>
+                    <p class="col-md-8 offset-md-4 h5 thin ">
+                        {% blocktrans %}Мы верим в эмоциональное исцеление и восстановление людей, переживших насилие.{% endblocktrans %}
+
+                    </p>
                 </div>
 
                 <div class="col">
-                    <p class="font-weight-bold h3">Раскрытие потенциала человека.</p>
-                    <p class="col-md-8 offset-md-4 h5 thin"> Мы верим, что человек был создан Богом с неограниченным
-                        потенциалом,
-                        который мы
-                        хотим
-                        помочь человеку раскрыть.</p>
+                    <p class="font-weight-bold h3">{% trans 'Раскрытие потенциала человека' %}.</p>
+                    <p class="col-md-8 offset-md-4 h5 thin">
+
+                        {% blocktrans %}Мы верим, что человек был создан Богом с неограниченным потенциалом, который мы хотим помочь человеку раскрыть.{% endblocktrans %}
+
+
+                    </p>
                 </div>
 
                 <div class="col">
-                    <p class="font-weight-bold h3">Равные возможности.</p>
-                    <p class="col-md-8 offset-md-4 h5 thin"> Мы верим, все имеют право на равные возможности в обучении,
-                        развитии и
-                        трудоустройстве</p>
+                    <p class="font-weight-bold h3">{% trans 'Равные возможности.' %}</p>
+                    <p class="col-md-8 offset-md-4 h5 thin">
+                        {% blocktrans %}Мы верим, все имеют право на равные возможности в обучении, развитии и трудоустройстве{% endblocktrans %}
+
+
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 
 
-
     <div>[РОЛИК]</div>
 
 
-
-    <h1 class="blue">КАК МЫ РАБОТАЕМ:</h1>
+    <h1 class="blue">{% trans 'КАК МЫ РАБОТАЕМ:' %}</h1>
     <div class="block white">
         <img src="{% static 'img/stop-vi-ru.gif' %}" alt="" class="img-fluid">
     </div>
 
 
-    <h1 class="blue">ГДЕ МЫ РАБОТАЕМ:</h1>
+    <h1 class="blue">{% trans 'ГДЕ МЫ РАБОТАЕМ:' %}</h1>
     <div class="block blue">
 
         <div class="row">
@@ -120,45 +145,29 @@
                 <img src="{% static 'img/asia-map.gif' %}" alt="" class="img-fluid">
             </div>
             <div class="col-sm-12 col-md-6 text-center">
-                <p class="thin">Республика Кыргызстан находится в самом центре Средней Азии, большую часть
-                    занимают горные
-                    склоны. К
-                    сожалению,
-                    Кыргызстан является одной из самых бедных стран на территории СНГ.
-                    Более 30% населения живет за чертой бедности. Около половины работоспособного населения
-                    составляют
-                    мигранты.
-                    Ежегодно в республике совершается около 3000 преступлений против женщин, а также 12000 случаев
-                    воровства
-                    невест.
-                    А
-                    количество выпускников детских домов ежегодно составляет около 400 человек. Данным социальным
-                    проблемам
-                    уделяется
-                    мало внимания со стороны государства хотя они затрагивают самые уязвимые слои населения: сирот,
-                    женщин и
-                    детей.</p>
+                <p class="thin">
+                    {% trans 'Республика Кыргызстан находится в самом центре Средней Азии, большую часть занимают горные склоны. К сожалению, Кыргызстан является одной из самых бедных стран на территории СНГ. Более 30% населения живет за чертой бедности. Около половины работоспособного населения составляют мигранты. Ежегодно в республике совершается около 3000 преступлений против женщин, а также 12000 случаев воровства невест. А количество выпускников детских домов ежегодно составляет около 400 человек. Данным социальным проблемам уделяется мало внимания со стороны государства хотя они затрагивают самые уязвимые слои населения: сирот, женщин и детей.' %}
+
+                </p>
             </div>
         </div>
     </div>
 
     <div class="full">
-        <div class="white h4 text-center p-3">Общественный Фонд “Стоп Ви” – это некоммерческая организация, которая
-            работает
-            в
-            Кыргызстане.
+        <div class="white h4 text-center p-3">
+
+            {% trans 'Общественный Фонд “Стоп Ви” – это некоммерческая организация, которая работает в Кыргызстане.' %}
+
+
         </div>
         <img class="img-fluid" src="{% static 'img/sv.jpg' %}">
-        <div class="p-3 white text-center">Благодаря работе нашей команды происходят положительные изменения в жизни
-            тех,
-            кто в
-            этом больше
-            всего
-            нуждается.
+        <div class="p-3 white text-center">
+            {% trans ' Благодаря работе нашей команды происходят положительные изменения в жизни тех, кто в этом больше всего нуждается.' %}
+
         </div>
     </div>
 
-    <h1 class="blue">НАШИ ПРОЕКТЫ</h1>
+    <h1 class="blue">{% trans 'НАШИ ПРОЕКТЫ' %}</h1>
     <div class="block blue">
 
         <div class="row f">
@@ -166,11 +175,10 @@
                 <img class="img-fluid" src="{% static 'img/im-2.jpg' %}">
             </div>
             <div class="col-sm-12 col-md-6 border-left">
-                <div class="name text-left text-uppercase h3">Медиа Школа для уязвимой молодежи</div>
+                <div class="name text-left text-uppercase h3">{% trans 'Медиа Школа для уязвимой молодежи' %}</div>
                 <div class=" text-left ">
-                    Общественный Фонд "Стоп Ви" проводит обучение для выпускников детских домов, преподавая им основные
-                    навыки СМИ. Молодые люди осваивают навыки фото, видео и журналистики, воплощая в жизнь свои идеи и
-                    развивая свои таланты. Также во время обучения мы говорим с ними о жизненных навыках и рисках.
+                    {% trans 'Общественный Фонд "Стоп Ви" проводит обучение для выпускников детских домов, преподавая им основные навыки СМИ. Молодые люди осваивают навыки фото, видео и журналистики, воплощая в жизнь свои идеи и развивая свои таланты. Также во время обучения мы говорим с ними о жизненных навыках и рисках.' %}
+
                 </div>
             </div>
         </div>
@@ -180,17 +188,13 @@
                 <img class="img-fluid" src="{% static 'img/vi-1.jpg' %}">
             </div>
             <div class="col-sm-12 col-md-6 border-left">
-                <div class="name h3 text-left text-uppercase">Школа по предотвращению насилия для местных активистов
+                <div class="name h3 text-left text-uppercase">{% trans 'Школа по предотвращению насилия для местных активистов' %}
+
+
                 </div>
 
                 <div class=" text-left ">
-                    Ежегодно в Кыргызстане происходит 2500 случаев насилия в отношении женщин и детей, такие как
-                    похищение
-                    невест, изнасилования и ранние браки (девочки младше 16 лет). Только 2 из 5 женщин обращаются в
-                    полицию.
-                    Для изменения этой ситуации мы начали проект "Школа по предотвращению насилия" для местных
-                    активистов,
-                    которые работают с жертвами насилия.
+                    {% trans 'Ежегодно в Кыргызстане происходит 2500 случаев насилия в отношении женщин и детей, такие как похищение невест, изнасилования и ранние браки (девочки младше 16 лет). Только 2 из 5 женщин обращаются в полицию. Для изменения этой ситуации мы начали проект "Школа по предотвращению насилия" для местных активистов, которые работают с жертвами насилия.' %}
                 </div>
             </div>
         </div>
@@ -200,16 +204,12 @@
                 <img class="img-fluid" src="{% static 'img/im-4.jpg' %}">
             </div>
             <div class="col-sm-12 col-md-6 border-left">
-                <div class="name h3 text-uppercase text-left">Медиа Студия</div>
+                <div class="name h3 text-uppercase text-left">{% trans 'Медиа Студия' %}</div>
 
                 <div class=" text-left ">
-                    Миссия "Стоп Ви" заключается в повышении осведомленности, информировании, обучении и
-                    предотвращении
-                    насилия. С этой целью мы активно используем все современные ресурсы СМИ, создаем фото, видео
-                    и
-                    печатный
-                    материал, необходимый для информирования о проблеме насилия и способах получения помощи для
-                    пострадавших
+
+                    {% trans 'Миссия "Стоп Ви" заключается в повышении осведомленности, информировании, обучении и предотвращении насилия. С этой целью мы активно используем все современные ресурсы СМИ, создаем фото, видео и печатный материал, необходимый для информирования о проблеме насилия и способах получения помощи для пострадавших' %}
+
                 </div>
             </div>
         </div>
@@ -219,27 +219,18 @@
                 <img class="img-fluid" src="{% static 'img/sch-1.jpg' %}">
             </div>
             <div class="col-sm-12 col-md-6 border-left">
-                <div class="name h3 text-uppercase text-left">Лекции для старшеклассников</div>
+                <div class="name h3 text-uppercase text-left">{% trans 'Лекции для старшеклассников' %}</div>
 
                 <div class=" text-left ">
-                    Наша команда волонтеров проводит лекции по предотвращению ранних браков и опасного поведения
-                    для
-                    учеников старших классов сельских школ Кыргызстана. Молодые люди получают мотивацию менять
-                    свое
-                    отношение к жизни, сосредотачиваться на развитии своих талантов, учатся избегать опасных
-                    ситуаций.
+                    {% trans 'Наша команда волонтеров проводит лекции по предотвращению ранних браков и опасного поведения для учеников старших классов сельских школ Кыргызстана. Молодые люди получают мотивацию менять свое отношение к жизни, сосредотачиваться на развитии своих талантов, учатся избегать опасных ситуаций.' %}
+
                 </div>
             </div>
         </div>
     </div>
 
 
-
-
-
-
-
-    <h1 class="blue">БЛОГ МЕДИА:</h1>
+    <h1 class="blue">{% trans 'МЕДИА БЛОГ:' %}</h1>
 
     <div class="block white">
         <div class="container">
@@ -250,14 +241,15 @@
                         <img class="card-img-top" src="{% static 'img/vio-1.jpg' %}" alt="Card image cap">
                         <div class="glyph p-1">
                             <img src="{% static 'img/file.svg' %} " width="25px">
-                            Статья
+                            {% trans 'Доклад' %}
                         </div>
                         <div class="block p-3">
-                            <h4 class="">ЗВОНИТЕ КОГДА БУДУТ УБИВАТЬ!</h4>
-                            <p class="card-text">Отчет Human's rights Watch 2015</p>
+                            <h4 class="">{% trans '"Вызывайте, когда будет убивать” от Хьюман Райтс Вотч.' %}</h4>
+                            <p class="card-text">{% trans 'Реагирование государства на семейное насилие в Кыргызстане. 28 октября 2015 года' %}
+                            </p>
                         </div>
                         <div class="card-footer">
-                            <a href="#" class="btn btn-donate">Просмотреть</a>
+                            <a href="#" class="btn btn-donate">{% trans 'Просмотреть' %}</a>
                         </div>
                     </div>
                 </div>
@@ -268,14 +260,15 @@
                         <img class="img-fluid p-1" src="{% static 'img/content.gif' %}" alt="Card image cap">
                         <div class="glyph p-1">
                             <img src="{% static 'img/file.svg' %}" width="25px">
-                            Статья
+                            {% trans 'Отчет' %}
                         </div>
                         <div class="p-3">
-                            <h4 class="card-title">Отчет</h4>
-                            <p class="card-text">Отчет об изнасилованных женщинах за 2016-2017год.</p>
+                            <h4 class="card-title">{% trans 'Отчет' %}</h4>
+                            <p class="card-text">{% trans 'Отчет об исследовании судебной практики в Кыргызской Республике по преступлениям в отношении женщин и детей. 3 января 2018 года' %}
+                            </p>
                         </div>
                         <div class="card-footer p-3">
-                            <a href="#" class="btn btn-donate">Просмотреть</a>
+                            <a href="#" class="btn btn-donate">{% trans 'Просмотреть' %}</a>
                         </div>
                     </div>
                 </div>
@@ -284,67 +277,80 @@
             </div>
 
             <div class="row">
+
+
                 <div class="col-md col-sm-12 d-flex">
                     <div class="card blue m-3">
                         <img class="card-img-top" src="{% static 'img/vi-4.jpg' %}" alt="Card image cap">
                         <div class="glyph p-1">
                             <img src="{% static 'img/file.svg' %} " width="25px">
-                            Статья
+                            {% trans 'Репортаж' %}
                         </div>
                         <div class="card-block p-3">
-                            <h4 class="card-title">Насилие над детьми!</h4>
-                            <p class="card-text">Ты за или против?</p>
+                            <h4 class="card-title">{% trans '“Домашнее насилие в Кыргызстане”' %}</h4>
+                            <p class="card-text">{% trans 'Проблема насилия в семье была и остаётся ещё издревле. Сегодня мы выясним, как жители Бишкека относятся к этому.' %}.
+                            </p>
                         </div>
                         <div class="card-footer">
-                            <a href="#" class="btn btn-donate">Узнать больше ></a>
+                            <a href="#" class="btn btn-donate">{% trans 'Узнать больше' %}></a>
                         </div>
                     </div>
                 </div>
+
+
                 <div class="col-md col-sm-12 d-flex">
                     <div class="card blue m-3">
                         <img class="card-img-top" src="{% static 'img/vio-2.jpg' %}" alt="Card image cap">
                         <div class="glyph p-1">
                             <img src="{% static 'img/video.svg' %} " width="25px">
-                            Видео
+                            {% trans 'Репортаж' %}
                         </div>
                         <div class="card-block p-3">
-                            <h4 class="card-title">Насилие за 40!!</h4>
-                            <p class="card-text">Отчет Human's rights Watch 2015adwdawdawdawd</p>
+                            <h4 class="card-title">{% trans '“Выпускники детских домов в Кыргызстане”' %}</h4>
+                            <p class="card-text">
+
+                                {% trans ' В этом репортаже мы расскажем вам о том, с какими проблемами сталкиваются выпускники детских домов Кыргызстана.' %}
+
+                            </p>
                         </div>
                         <div class="card-footer">
-                            <a href="#" class="btn btn-donate">Просмотреть</a>
+                            <a href="#" class="btn btn-donate">{% trans 'Просмотреть' %}</a>
                         </div>
                     </div>
                 </div>
+
+
                 <div class="col-md col-sm-12 d-flex">
                     <div class="card blue m-3">
                         <img class="card-img-top" src="{% static 'img/vio-3.jpg' %}" alt="Card image cap">
                         <div class="glyph p-1">
                             <img src="{% static 'img/open-book.svg' %} " width="25px">
-                            Отчет
+                            {% trans 'Видео' %}
                         </div>
                         <div class="card-block p-3">
-                            <h4 class="card-title">Как пережить травму</h4>
-                            <p class="card-text">Как пережить травму. Совет эксперта</p>
+                            <h4 class="card-title">{% trans '“Вор”' %}</h4>
+                            <p class="card-text">{% trans 'Пришло время увидеть традицию воровства невест глазами парней. История молодого парня, погубившего судьбу случайной прохожей. Желание создать семью обернулось плохими последствиями...' %}</p>
                         </div>
                         <div class="card-footer">
-                            <a href="#" class="btn btn-donate">Узнать больше ></a>
+                            <a href="#" class="btn btn-donate">{% trans 'Узнать больше' %} ></a>
                         </div>
                     </div>
                 </div>
+
+
                 <div class="col-md col-sm-12 d-flex">
                     <div class="card blue m-3">
                         <img class="card-img-top" src="{% static 'img/vio-3.jpg' %}" alt="Card image cap">
                         <div class="glyph p-1">
                             <img src="{% static 'img/file.svg' %} " width="25px">
-                            Документ
+                            {% trans 'Документ' %}
                         </div>
                         <div class="card-block p-3">
-                            <h4 class="card-title">ЗВОНИТЕ КОГДА БУДУТ УБИВАТЬ!</h4>
-                            <p class="card-text">Отчет Human's rights Watch 2015</p>
+                            <h4 class="card-title">{% trans 'ЗВОНИТЕ КОГДА БУДУТ УБИВАТЬ!' %}</h4>
+                            <p class="card-text">{% trans 'Отчет Humans rights Watch 2015' %}</p>
                         </div>
                         <div class="card-footer">
-                            <a href="#" class="btn btn-donate">Узнать больше ></a>
+                            <a href="#" class="btn btn-donate">{% trans 'Узнать больше' %} ></a>
                         </div>
                     </div>
                 </div>
@@ -356,7 +362,8 @@
 
     </div>
 
-    <h1 class="blue">ЖИЗНЕННЫЕ ИСТОРИИ:</h1>
+
+    <h1 class="blue">{% trans 'ЖИЗНЕННЫЕ ИСТОРИИ' %}:</h1>
     <div class="block white">
 
 
@@ -369,15 +376,10 @@
                         <img class="img-fluid rounded" src="{% static 'img/microphone.gif' %}">
                     </div>
                     <div class="col-sm-12 col-md">
-                        <div class="name h5">АНЯ</div>
+                        <div class="name h5 text-left">{% trans 'АНЯ' %}</div>
                         <div class="story">
-                            Школа Импакт медиа - это обучение чему-то новому, хорошие учителя, любящие то,
-                            чем
-                            занимаются.
-                            Импакт медиа - это запах свежей весны и съёмок в жару. Сложные и интересные задания и
-                            настоящие
-                            серьезные
-                            проекты на выпускной!На следующий год планирую поступать на Журналистику!
+                            <div class="text-right  font-weight-bold h5">"Impact Media"</div>
+                            {% trans 'Школа Импакт медиа - это обучение чему-то новому, хорошие учителя, любящие то, чем занимаются. Импакт медиа - это запах свежей весны и съёмок в жару. Сложные и интересные задания и настоящие серьезные проекты на выпускной!На следующий год планирую поступать на Журналистику!' %}
                         </div>
                     </div>
                 </div>
@@ -390,17 +392,12 @@
                         <img class="img-fluid rounded" src="{% static 'img/Photographer.gif' %}">
                     </div>
                     <div class="col-sm-12 col-md">
-                        <div class="name h5">ВЛАД</div>
+                        <div class="name h5 text-left">{% trans 'ВЛАД' %}</div>
                         <div class="story">
-                            Для меня обучение в школе Импакт Медиа был очень полезным опытом! Всегда с
-                            радостью
-                            посещал
-                            занятия, особенно мне нравилось работать с камерой, когда мы снимали блоги. Для этого
-                            сначала надо
-                            было
-                            самим придумать и прописать сценарий. И потом съемки и монтаж! Было круто! Сейчас я
-                            продолжаю
-                            развиваться в этой сфере, пишу сценарий к своему фильму.
+                            <div class="text-right  font-weight-bold h5">"Impact Media"</div>
+
+                            {% trans 'Для меня обучение в школе Импакт Медиа был очень полезным опытом! Всегда с радостью посещал занятия, особенно мне нравилось работать с камерой, когда мы снимали блоги. Для этого сначала надо было самим придумать и прописать сценарий. И потом съемки и монтаж! Было круто! Сейчас я продолжаю развиваться в этой сфере, пишу сценарий к своему фильму.' %}
+
                         </div>
                     </div>
                 </div>
@@ -418,19 +415,16 @@
                         <img class="img-fluid rounded" src="{% static 'img/law.gif' %}">
                     </div>
                     <div class="col-sm-12 col-md">
-                        <div class="name h5">СВЕТЛАНА (Школа Стоп Ви)</div>
+                        <div class="name h5">{% trans 'СВЕТЛАНА' %}</div>
                         <div class="story">
-                            Я работаю с социально уязвимыми женщинами, оказавшимися в ситуации риска и
-                            очень благодарна за возможность посещать ваши тренинги. Узнала много практической
-                            информации
-                            по
-                            проблеме
-                            насилия и помощи пострадавшим. В особенности пригодились юридические консультации
+                            <div class="text-right  font-weight-bold h5">"Stop Vi School"</div>
+
+                            {% trans 'Я работаю с социально уязвимыми женщинами, оказавшимися в ситуации риска и очень благодарна за возможность посещать ваши тренинги. Узнала много практической информации по проблеме насилия и помощи пострадавшим. В особенности пригодились юридические консультации' %}
+
                         </div>
                     </div>
                 </div>
             </div>
-
 
 
             <div class="col-sm-12 col-md">
@@ -439,13 +433,12 @@
                         <img class="img-fluid rounded" src="{% static 'img/consultancy.gif' %}">
                     </div>
                     <div class="col-sm-12 col-md">
-                        <div class="name h5">ЛАРИСА (Школа Стоп Ви)</div>
+                        <div class="name h5 text-left">{% trans 'ЛАРИСА' %}</div>
                         <div class="story">
-                            Очень своевременные курсы! Я получила много практических знаний и теперь более
-                            уверенно чувствую себя, если ко мне обращаются по вопросам, связанным с насилием. К
-                            сожалению таких
-                            женщин
-                            меньше не становится
+                            <div class="text-right  font-weight-bold h5">"Stop Vi School"</div>
+
+                            {% trans 'Очень своевременные курсы! Я получила много практических знаний и теперь более уверенно чувствую себя, если ко мне обращаются по вопросам, связанным с насилием. К сожалению таких женщин меньше не становится' %}
+
                         </div>
                     </div>
                 </div>
@@ -463,20 +456,15 @@
                         <img class="img-fluid rounded" src="{% static 'img/violence-home.gif' %}">
                     </div>
                     <div class="col-sm-12 col-md">
-                        <div class="name h5">ЧИНАРА (Школа Стоп Ви)</div>
+                        <div class="name h5 text-left">{% trans 'ЧИНАРА' %}</div>
                         <div class="story">
-                            Я сама пережила семейное насилие более 10 лет в моей семье. Я прошла очень
-                            болезненный
-                            процесс
-                            реабилитации и теперь хочу помогать тем, кто не видит выхода или боится что-то
-                            изменить
-                            в своей
-                            жизни.
-                            Курсы Школы Стоп Ви придали мне уверенности в том, что я приняла верное решение и что я
-                            могу
-                            получить
-                            достаточные знания для помощи другим
+                            <div class="text-right  font-weight-bold h5">"Stop Vi School"</div>
+
+                            {% trans 'Я сама пережила семейное насилие более 10 лет в моей семье. Я прошла очень болезненный процесс реабилитации и теперь хочу помогать тем, кто не видит выхода или боится что-то изменить в своей жизни. Курсы Школы Стоп Ви придали мне уверенности в том, что я приняла верное решение и что я могу получить достаточные знания для помощи другим' %}
+
+
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -487,8 +475,9 @@
                         <img class="img-fluid rounded" src="{% static 'img/content.gif' %}">
                     </div>
                     <div class="col-sm-12 col-md">
-                        <div class="name h5">NAME</div>
+                        <div class="name h5 text-left ">NAME</div>
                         <div class="story">
+                            <div class="text-right  font-weight-bold h5">"Stop Vi School"</div>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius id natus quis ut voluptates?
                             Animi consequatur deleniti dicta dolorum earum ex inventore minima natus, nobis quaerat quia
                             rerum ullam voluptas.
@@ -500,16 +489,13 @@
     </div>
 
 
-
-
-
-
-    <div id="end" class="h2">Пожертвовать:</div>
+    <div id="end" class="h2">{% trans 'Пожертвовать:' %}</div>
     <div class="block">
 
         <div class="container">
         </div>
 
-
     </div>
+
 {% endblock %}
+

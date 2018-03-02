@@ -1,0 +1,466 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-02 19:48+0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: system/templates/system/base.html:29
+msgid "Menu"
+msgstr "Меню"
+
+#: system/templates/system/base.html:30
+msgid "О НАС"
+msgstr "ABOUT US"
+
+#: system/templates/system/base.html:31
+msgid "КАК МЫ РАБОТАЕМ"
+msgstr "WHAT WE DO"
+
+#: system/templates/system/base.html:32
+msgid "ГДЕ МЫ РАБОТАЕМ"
+msgstr "WHERE WE WORK"
+
+#: system/templates/system/base.html:33
+msgid "МЕДИА БЛОГ"
+msgstr "MEDIA BLOG"
+
+#: system/templates/system/base.html:34 system/templates/system/index.html:351
+msgid "ЖИЗНЕННЫЕ ИСТОРИИ"
+msgstr "LIFE STORIES"
+
+#: system/templates/system/base.html:35
+msgid "ПОЖЕРТВОВАТЬ"
+msgstr "DONATE"
+
+#: system/templates/system/index.html:19
+msgid "ОСТАНОВИМ НАСИЛИЕ"
+msgstr "STOP THE VIOLENCE"
+
+#: system/templates/system/index.html:21
+msgid ""
+"Мы видим Кыргызстан, в котором высшей ценностью признается достоинство "
+"человека и право иметь жизнь, свободную от любой формы насилия."
+msgstr ""
+"We see Kyrgyzstan where the dignity of the person and the right to have life "
+"free from any form of violence are recognized as the supreme value."
+
+#: system/templates/system/index.html:33
+msgid ""
+"Общественный Фонд “Стоп Ви” – был создан с целью профилактики и "
+"предотвращения любой формы насилия при помощи образования и активного "
+"использования медиа."
+msgstr ""
+"Public Foundation \"Stop Vi\" has been established for the purpose of "
+"prevention of any form of violence by means of education and active use of "
+"media."
+
+#: system/templates/system/index.html:41
+msgid "НАША МИССИЯ:"
+msgstr "MISSION"
+
+#: system/templates/system/index.html:48
+msgid ""
+"Мы занимаемся профилактикой любого вида насилия посредством медиа кампаний и "
+"активного информирования о проблемах насилия на медиа пространстве "
+"Кыргызстана."
+msgstr ""
+"We are engaged in preventing any kind of violence by means of media "
+"campaigns and active informing about violence problems in media space of "
+"Kyrgyzstan."
+
+#: system/templates/system/index.html:57
+msgid ""
+"Мы обучаем уязвимые слои населения Кыргызстане, находящиеся в группе риска, "
+"практическим и жизненным навыкам."
+msgstr ""
+"We train vulnerable groups of the population of Kyrgyzstan who are in risk, "
+"in practical skills and life skills. "
+
+#: system/templates/system/index.html:66
+msgid ""
+"Мы создаем контент с вдохновляющими историями для продвижения положительного "
+"образа жизни без насилия."
+msgstr ""
+"We create content with inspiring stories for promoting a positive way of "
+"life without violence"
+
+#: system/templates/system/index.html:75
+msgid "НАШИ ЦЕННОСТИ"
+msgstr "VALUES"
+
+#: system/templates/system/index.html:76
+msgid "Всецелое развитие человека"
+msgstr "Holistic development of the person"
+
+#: system/templates/system/index.html:79
+msgid ""
+"Мы ценим всецелое развитие человека: духовное, эмоциональное, физическое и "
+"интеллектуальное."
+msgstr ""
+"We appreciate holistic development of the person: spiritual, emotional, "
+"physical and intellectual."
+
+#: system/templates/system/index.html:86
+msgid "Эмоциональное исцеление и восстановление"
+msgstr "Emotional healing and restoration. "
+
+#: system/templates/system/index.html:88
+msgid ""
+"Мы верим в эмоциональное исцеление и восстановление людей, переживших "
+"насилие."
+msgstr ""
+"We believe in emotional healing and recovery for the people who have endured "
+"violence."
+
+#: system/templates/system/index.html:94
+msgid "Раскрытие потенциала человека"
+msgstr "Reveal potential of the person."
+
+#: system/templates/system/index.html:97
+msgid ""
+"Мы верим, что человек был создан Богом с неограниченным потенциалом, который "
+"мы хотим помочь человеку раскрыть."
+msgstr ""
+"We believe that every person has been created by God with unlimited "
+"potential and we want to help the person to reveal it."
+
+#: system/templates/system/index.html:104
+msgid "Равные возможности."
+msgstr "Equal opportunities."
+
+#: system/templates/system/index.html:106
+msgid ""
+"Мы верим, все имеют право на равные возможности в обучении, развитии и "
+"трудоустройстве"
+msgstr ""
+"We believe that all people have the right for equal opportunities in "
+"training, development and employment."
+
+#: system/templates/system/index.html:119
+msgid "КАК МЫ РАБОТАЕМ:"
+msgstr "WHAT WE DO:"
+
+#: system/templates/system/index.html:125
+msgid "ГДЕ МЫ РАБОТАЕМ:"
+msgstr "WHERE WE WORK:"
+
+#: system/templates/system/index.html:134
+#, fuzzy, python-format
+#| msgid ""
+#| "Республика Кыргызстан находится в самом центре Средней Азии, большую "
+#| "часть занимают горные склоны. К сожалению, Кыргызстан является одной из "
+#| "самых бедных стран на территории СНГ. Более 30%% населения живет за "
+#| "чертой бедности. Около половины работоспособного населения составляют "
+#| "мигранты. Ежегодно в республике совершается около 3000 преступлений "
+#| "против женщин, а также 12000 случаев воровства невест. А количество "
+#| "выпускников детских домов ежегодно составляет около 400 человек. Данным "
+#| "социальным проблемам уделяется мало внимания со стороны государства хотя "
+#| "они затрагивают самые уязвимые слои населения: сирот, женщин и детей."
+msgid ""
+"Республика Кыргызстан находится в самом центре Средней Азии, большую часть "
+"занимают горные склоны. К сожалению, Кыргызстан является одной из самых "
+"бедных стран на территории СНГ. Более 30%% населения живет за чертой "
+"бедности. Около половины работоспособного населения составляют мигранты. "
+"Ежегодно в республике совершается около 3000 преступлений против женщин, а "
+"также 12000 случаев воровства невест. А количество выпускников детских домов "
+"ежегодно составляет около 400 человек. Данным социальным проблемам уделяется "
+"мало внимания со стороны государства хотя они затрагивают самые уязвимые "
+"слои населения: сирот, женщин и детей."
+msgstr ""
+"Kyrgyz Republic is in the heart of Central Asia, the majority of the "
+"territory are mountains. Unfortunately Kyrgyzstan is one of the poorest CIS "
+"countries. More than 30% of the population live under the poverty level. "
+"About a half of the working population are migrants. Annually around 3000 "
+"crimes are committed against women, 12 000 cases of bride kidnapping. And "
+"the number of care leavers is about 400 every year. The government doesn’t "
+"pay attention to these problems, even though the most vulnerable groups are "
+"affected by these problems: orphans, women, and children."
+
+#: system/templates/system/index.html:144
+msgid ""
+"Общественный Фонд “Стоп Ви” – это некоммерческая организация, которая "
+"работает в Кыргызстане."
+msgstr ""
+"Public Foundation Stop Vi is a non commercial organization that works in "
+"Kyrgyzstan."
+
+#: system/templates/system/index.html:150
+msgid ""
+" Благодаря работе нашей команды происходят положительные изменения в жизни "
+"тех, кто в этом больше всего нуждается."
+msgstr ""
+"With the help of our team we see positive changes in the lives of those who "
+"need help most of all."
+
+#: system/templates/system/index.html:155
+msgid "НАШИ ПРОЕКТЫ"
+msgstr "PROJECTS"
+
+#: system/templates/system/index.html:163
+msgid "Медиа Школа для уязвимой молодежи"
+msgstr "Media School Project for Vulnerable Youth"
+
+#: system/templates/system/index.html:165
+msgid ""
+"Общественный Фонд \"Стоп Ви\" проводит обучение для выпускников детских "
+"домов, преподавая им основные навыки СМИ. Молодые люди осваивают навыки "
+"фото, видео и журналистики, воплощая в жизнь свои идеи и развивая свои "
+"таланты. Также во время обучения мы говорим с ними о жизненных навыках и "
+"рисках."
+msgstr ""
+"Public Foundation \"Stop Vi\" runs a training project for graduates of "
+"orphanages teaching them basic media skills. Young people master photo, "
+"video and journalistic skills, putting their creativity into practice and "
+"developing their talents. And also during the training we talk with them "
+"about Life skills and risks."
+
+#: system/templates/system/index.html:176
+msgid "Школа по предотвращению насилия для местных активистов"
+msgstr "School on Violence Prevention for Local Activists"
+
+#: system/templates/system/index.html:182
+msgid ""
+"Ежегодно в Кыргызстане происходит 2500 случаев насилия в отношении женщин и "
+"детей, такие как похищение невест, изнасилования и ранние браки (девочки "
+"младше 16 лет). Только 2 из 5 женщин обращаются в полицию. Для изменения "
+"этой ситуации мы начали проект \"Школа по предотвращению насилия\" для "
+"местных активистов, которые работают с жертвами насилия."
+msgstr ""
+"Annually in Kyrgyzstan there are 2500 cases of violence against women and "
+"children such as bride kidnapping, abuse, rape and early marriages (girls "
+"under 16 years old). Only 2 out of 5 women turn to police or seek other help."
+"For changing the situation, we have started a project called \"School of "
+"Violence Prevention\" training local activists who work with victims of "
+"violence."
+
+#: system/templates/system/index.html:192
+msgid "Медиа Студия"
+msgstr "Studio of Media Content Production"
+
+#: system/templates/system/index.html:196
+msgid ""
+"Миссия \"Стоп Ви\" заключается в повышении осведомленности, информировании, "
+"обучении и предотвращении насилия. С этой целью мы активно используем все "
+"современные ресурсы СМИ, создаем фото, видео и печатный материал, "
+"необходимый для информирования о проблеме насилия и способах получения "
+"помощи для пострадавших"
+msgstr ""
+"The mission of \"Stop Vi\" is raising awareness, informing, training and "
+"prevention of violence. For this purpose we actively use all modern media "
+"resources, and we are engaged in creating photo, video and printing "
+"materials necessary for the general public providing information on violence "
+"and ways of getting help for those who find themselves as victims or wanting "
+"to help the victims."
+
+#: system/templates/system/index.html:207
+msgid "Лекции для старшеклассников"
+msgstr "High School Lectures"
+
+#: system/templates/system/index.html:210
+msgid ""
+"Наша команда волонтеров проводит лекции по предотвращению ранних браков и "
+"опасного поведения для учеников старших классов сельских школ Кыргызстана. "
+"Молодые люди получают мотивацию менять свое отношение к жизни, "
+"сосредотачиваться на развитии своих талантов, учатся избегать опасных "
+"ситуаций."
+msgstr ""
+"Our team of volunteers conducts lectures for high school students on "
+"prevention of early marriages and risky behavior in the rural schools of "
+"Kyrgyzstan. Young people change their thinking and are challenged to focus "
+"on developing their strengths and talents, escaping risky situations and "
+"decisions in their future life. "
+
+#: system/templates/system/index.html:218
+msgid "МЕДИА БЛОГ:"
+msgstr "MEDIA BLOG"
+
+#: system/templates/system/index.html:229
+msgid "Доклад"
+msgstr ""
+
+#: system/templates/system/index.html:232
+msgid "\"Вызывайте, когда будет убивать” от Хьюман Райтс Вотч."
+msgstr ""
+
+#: system/templates/system/index.html:233
+msgid ""
+"Реагирование государства на семейное насилие в Кыргызстане. 28 октября 2015 "
+"года"
+msgstr ""
+
+#: system/templates/system/index.html:237
+#: system/templates/system/index.html:256
+#: system/templates/system/index.html:302
+msgid "Просмотреть"
+msgstr ""
+
+#: system/templates/system/index.html:248
+#: system/templates/system/index.html:251
+msgid "Отчет"
+msgstr ""
+
+#: system/templates/system/index.html:252
+msgid ""
+"Отчет об исследовании судебной практики в Кыргызской Республике по "
+"преступлениям в отношении женщин и детей. 3 января 2018 года"
+msgstr ""
+
+#: system/templates/system/index.html:272
+#: system/templates/system/index.html:291
+msgid "Репортаж"
+msgstr ""
+
+#: system/templates/system/index.html:275
+msgid "“Домашнее насилие в Кыргызстане”"
+msgstr ""
+
+#: system/templates/system/index.html:276
+msgid ""
+"Проблема насилия в семье была и остаётся ещё издревле. Сегодня мы выясним, "
+"как жители Бишкека относятся к этому."
+msgstr ""
+
+#: system/templates/system/index.html:280
+#: system/templates/system/index.html:320
+#: system/templates/system/index.html:338
+msgid "Узнать больше"
+msgstr ""
+
+#: system/templates/system/index.html:294
+msgid "“Выпускники детских домов в Кыргызстане”"
+msgstr ""
+
+#: system/templates/system/index.html:297
+msgid ""
+" В этом репортаже мы расскажем вам о том, с какими проблемами сталкиваются "
+"выпускники детских домов Кыргызстана."
+msgstr ""
+
+#: system/templates/system/index.html:313
+msgid "Видео"
+msgstr ""
+
+#: system/templates/system/index.html:316
+msgid "“Вор”"
+msgstr ""
+
+#: system/templates/system/index.html:317
+msgid ""
+"Пришло время увидеть традицию воровства невест глазами парней. История "
+"молодого парня, погубившего судьбу случайной прохожей. Желание создать семью "
+"обернулось плохими последствиями..."
+msgstr ""
+
+#: system/templates/system/index.html:331
+msgid "Документ"
+msgstr ""
+
+#: system/templates/system/index.html:334
+msgid "ЗВОНИТЕ КОГДА БУДУТ УБИВАТЬ!"
+msgstr ""
+
+#: system/templates/system/index.html:335
+msgid "Отчет Humans rights Watch 2015"
+msgstr ""
+
+#: system/templates/system/index.html:364
+msgid "АНЯ"
+msgstr "Anya"
+
+#: system/templates/system/index.html:367
+msgid ""
+"Школа Импакт медиа - это обучение чему-то новому, хорошие учителя, любящие "
+"то, чем занимаются. Импакт медиа - это запах свежей весны и съёмок в жару. "
+"Сложные и интересные задания и настоящие серьезные проекты на выпускной!На "
+"следующий год планирую поступать на Журналистику!"
+msgstr ""
+"Impact media is always about learning something new; good teachers who love "
+"what they do. Impact media is about us shooting our videos during the heat "
+"of summer days. It is about difficult and interesting projects and real "
+"final exams in the end! Now I actively use the skills of journalism and "
+"photo in our youth project. Next year I plan to apply to the university to "
+"study Journalism further!"
+
+#: system/templates/system/index.html:380
+msgid "ВЛАД"
+msgstr "Vlad"
+
+#: system/templates/system/index.html:384
+msgid ""
+"Для меня обучение в школе Импакт Медиа был очень полезным опытом! Всегда с "
+"радостью посещал занятия, особенно мне нравилось работать с камерой, когда "
+"мы снимали блоги. Для этого сначала надо было самим придумать и прописать "
+"сценарий. И потом съемки и монтаж! Было круто! Сейчас я продолжаю "
+"развиваться в этой сфере, пишу сценарий к своему фильму."
+msgstr ""
+"For me the training at Impact Media School was a very useful experience! It "
+"was fun to have the classes; especially I liked to work with the camera when "
+"we shot video blogs. First we had to think up and write the scenario. And "
+"then video shooting and editing! It was cool! Now I continue to develop my "
+"skills in this area and I’m making a script for a movie."
+
+#: system/templates/system/index.html:403
+msgid "СВЕТЛАНА"
+msgstr "Svetlana"
+
+#: system/templates/system/index.html:407
+msgid ""
+"Я работаю с социально уязвимыми женщинами, оказавшимися в ситуации риска и "
+"очень благодарна за возможность посещать ваши тренинги. Узнала много "
+"практической информации по проблеме насилия и помощи пострадавшим. В "
+"особенности пригодились юридические консультации"
+msgstr ""
+"I work with socially vulnerable women who find themselves in a situation of "
+"risk, and I am very grateful for an opportunity to attend the training. I "
+"have received a lot of practical information on the problem of violence in "
+"our country and how to help the victims."
+
+#: system/templates/system/index.html:421
+msgid "ЛАРИСА"
+msgstr "Larisa"
+
+#: system/templates/system/index.html:425
+msgid ""
+"Очень своевременные курсы! Я получила много практических знаний и теперь "
+"более уверенно чувствую себя, если ко мне обращаются по вопросам, связанным "
+"с насилием. К сожалению таких женщин меньше не становится"
+msgstr ""
+"Very timely courses! I have gained a lot of practical knowledge and now I "
+"feel more confident if someone addresses me on the issues connected with "
+"violence. Unfortunately there are still too many women who suffer."
+
+#: system/templates/system/index.html:444
+msgid "ЧИНАРА"
+msgstr "Chinara"
+
+#: system/templates/system/index.html:448
+msgid ""
+"Я сама пережила семейное насилие более 10 лет в моей семье. Я прошла очень "
+"болезненный процесс реабилитации и теперь хочу помогать тем, кто не видит "
+"выхода или боится что-то изменить в своей жизни. Курсы Школы Стоп Ви придали "
+"мне уверенности в том, что я приняла верное решение и что я могу получить "
+"достаточные знания для помощи другим"
+msgstr ""
+"I have endured family violence for more than 10 years in my family. I have "
+"undergone a very painful process of overcoming the violence in my life, and "
+"now I want to help those who don't see any way out or afraid to change "
+"something in their life. Stop Vi School has given me confidence that I have "
+"made the right decision and that now I can gain sufficient knowledge for "
+"helping others."
+
+#: system/templates/system/index.html:478
+msgid "Пожертвовать:"
+msgstr "Donate:"
