@@ -132,7 +132,7 @@ h1, .h1 {
 .name {
     text-align: center;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .f{
     margin-top: 2vw;
@@ -151,9 +151,7 @@ h1, .h1 {
 .story {
     font-family: "Gilroy Light", serif;
     border-left: 2px solid #559ed6;
-    border-bottom: 2px solid #559ed6;
     padding: 1vw;
-    flex: 1;
 }
 .bg-fade{
     background-color: rgba(0, 0, 0, 0.3);
