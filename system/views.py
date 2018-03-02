@@ -13,6 +13,7 @@ class HomeView(TemplateView):
     template_name = 'system/index.html'
 
     def dispatch(self, request, *args, **kwargs):
-        user_language = 'en'
-        translation.activate(user_language)
+        if request.method == 'POST':
+            user_language = self.request.POST.get('lang')
+            translation.activate(user_language)
         return render(request, self.template_name)

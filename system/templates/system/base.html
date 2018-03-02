@@ -26,7 +26,7 @@
         <div class="col-md-8 offset-md-0 ">
             <div class="navbar-top">
                 <nav class="row">
-                    <button id="toogleButton"class="col btn btn-donate">{% trans 'Меню' %}</button>
+                    <button id="toogleButton" class="col btn btn-donate">{% trans 'Меню' %}</button>
                     <a class="col-sm-12 col-md btn nav-btn" href="#"> {% trans 'О НАС' %} </a>
                     <a class="col-sm-12 col-md btn nav-btn" href="#">{% trans 'КАК МЫ РАБОТАЕМ' %}</a>
                     <a class="col-sm-12 col-md btn nav-btn " href="#">{% trans 'ГДЕ МЫ РАБОТАЕМ' %}</a>
@@ -41,8 +41,12 @@
 
         <div class="col-sm-4 offset-sm-1 offset-md-1 col-md-1">
             <div class="lang-group row">
-                <a class="col btn btn-lang left" href="{% url 'set_language' %}">RU</a>
-                <a class="col btn btn-lang right" href="#end">EN</a>
+
+                <form action="{% url 'home' %}" method="post">
+                    {% csrf_token %}
+                    <input name="lang" type="submit" class=" col btn btn-lang left" value="EN"/>
+                    <input name="lang" type="submit" class="col btn btn-lang right" value="RU"/>
+                </form>
             </div>
         </div>
     </div>

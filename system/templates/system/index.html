@@ -6,27 +6,6 @@
 
 
 
-    <div class="btn-group-sm" role="group" aria-label="...">
-        <form action="{% url 'set_language' %}" method="post">
-            {% csrf_token %}
-            <input name="language" type="submit" class="btn btn-lang" value="en"/>
-            <input name="language" type="submit" class="btn btn-lang" value="ru"/>
-        </form>
-    </div>
-
-
-    <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
-    <input name="next" type="hidden" value="{{ redirect_to }}" />
-    <select name="language">
-
-            <option value="ru">Ru</option>
-            <option value="en">En</option>
-
-    </select>
-    <input type="submit" value="Go" />
-</form>
-
-
 
 
     <div class=" block blue jumbotron startpage">
