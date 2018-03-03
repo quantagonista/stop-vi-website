@@ -56,12 +56,43 @@
 {% block content %}
 
 {% endblock %}
-<div>
-    <footer class="footer">
-        <div class="loggo"></div>
-        <h5>Stop Vi 2018</h5>
-    </footer>
-</div>
+<footer class=" white p-5">
+
+    <div class="row">
+
+        <div class="col-sm-12 col-md">
+            <img src="{% static 'img/stopVilogo.gif' %}" alt="Stop Vi Public Foundation Logo"
+                 class="img-fluid rounded-circle" width="30%">
+
+            <div class="thin text-left">
+                © 2018 All rights reserved.<br>
+                Public Foundation “Stop Vi” November 11, 2016<br>
+                Register number: 162559-3301-ОФ<br>
+                OKPO code: 29760571
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md offset-md-4 bb">
+            <div class="thin text-right ">
+                Public Foundation “STOP Vi”<br>
+                Bishkek, Kyrgyzstan<br>
+                Jibek – Jolu st. 346<br>
+                stopvi.kg@gmail.com
+            </div>
+            <div class="">
+                <a class="d-inline" href="#">
+                    <img src="{% static 'img/fb.gif' %}" alt="" class="img-fluid float-right m-1" width="10%">
+                </a>
+                <a class="d-inline" href="#">
+                    <img src="{% static 'img/yt.gif' %}" alt=""
+                         class="img-fluid float-right m-1" width="10%">
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</footer>
 
 <script src="{% static 'js/script.js' %}"></script>
 <script src="{% static 'js/bootstrap.js' %}"></script>
