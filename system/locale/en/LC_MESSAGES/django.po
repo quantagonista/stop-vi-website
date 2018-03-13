@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-03 18:54+0600\n"
+"POT-Creation-Date: 2018-03-13 19:30+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,60 +17,59 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: system/templates/system/base.html:29
+#: system/templates/system/base.html:27
 msgid "Меню"
 msgstr "Menu"
 
-#: system/templates/system/base.html:30 system/templates/system/index.html:23
+#: system/templates/system/base.html:28 system/templates/system/index.html:23
 msgid "О НАС"
 msgstr "ABOUT US"
 
-#: system/templates/system/base.html:31
+#: system/templates/system/base.html:29
 msgid "КАК МЫ РАБОТАЕМ"
 msgstr "WHAT WE DO"
 
-#: system/templates/system/base.html:32
+#: system/templates/system/base.html:30
 msgid "ГДЕ МЫ РАБОТАЕМ"
 msgstr "WHERE WE WORK"
 
-#: system/templates/system/base.html:33
+#: system/templates/system/base.html:31
 msgid "МЕДИА БЛОГ"
 msgstr "MEDIA BLOG"
 
-#: system/templates/system/base.html:34 system/templates/system/index.html:356
+#: system/templates/system/base.html:32 system/templates/system/index.html:356
 msgid "ЖИЗНЕННЫЕ ИСТОРИИ"
 msgstr "LIFE STORIES"
 
-#: system/templates/system/base.html:35
+#: system/templates/system/base.html:33
 msgid "ПОЖЕРТВОВАТЬ"
 msgstr "DONATE"
 
-#: system/templates/system/base.html:68
+#: system/templates/system/base.html:65
 msgid "Все права защищены."
 msgstr "All rights reserved."
 
-#: system/templates/system/base.html:70
-
+#: system/templates/system/base.html:67
 msgid "Общественный фонд “STOP Vi” 11 Ноября 2016г."
 msgstr "Public Foundation “Stop Vi” November 11, 2016"
 
-#: system/templates/system/base.html:72
+#: system/templates/system/base.html:69
 msgid "Регистрационный номер"
 msgstr "Register number"
 
-#: system/templates/system/base.html:74
+#: system/templates/system/base.html:71
 msgid "ОКПО код"
 msgstr "OKPO code"
 
-#: system/templates/system/base.html:80
+#: system/templates/system/base.html:77
 msgid "Общественный фонд “STOP Vi”"
 msgstr "Public Foundation “Stop Vi”"
 
-#: system/templates/system/base.html:82
+#: system/templates/system/base.html:79
 msgid "Бишкек, Кыргызстан"
 msgstr "Bishkek, Kyrgyzstan"
 
-#: system/templates/system/base.html:84
+#: system/templates/system/base.html:81
 msgid "ул. Жибек-Жолу "
 msgstr "Jibek – Jolu st. "
 
@@ -312,17 +311,17 @@ msgstr "MEDIA BLOG"
 
 #: system/templates/system/index.html:234
 msgid "Доклад"
-msgstr ""
+msgstr "Report"
 
 #: system/templates/system/index.html:237
 msgid "\"Вызывайте, когда будет убивать” от Хьюман Райтс Вотч."
-msgstr ""
+msgstr "\"Call me when he tries to kill you\", – Human Rights Watch"
 
 #: system/templates/system/index.html:238
 msgid ""
 "Реагирование государства на семейное насилие в Кыргызстане. 28 октября 2015 "
 "года"
-msgstr ""
+msgstr "State Response to Domestic Violence in Kyrgyzstan. October 28, 2015"
 
 #: system/templates/system/index.html:242
 #: system/templates/system/index.html:261
@@ -339,65 +338,65 @@ msgstr "Report"
 msgid ""
 "Отчет об исследовании судебной практики в Кыргызской Республике по "
 "преступлениям в отношении женщин и детей. 3 января 2018 года"
-msgstr ""
+msgstr "Report on research of judicial practice in Kyrgyzstan concerning crimes against women and children as of January 3, 2018"
 
 #: system/templates/system/index.html:277
 #: system/templates/system/index.html:296
 msgid "Репортаж"
-msgstr ""
+msgstr "Reportage"
 
 #: system/templates/system/index.html:280
 msgid "“Домашнее насилие в Кыргызстане”"
-msgstr ""
+msgstr "Home violence in Kyrgyzstan"
 
 #: system/templates/system/index.html:281
 msgid ""
 "Проблема насилия в семье была и остаётся ещё издревле. Сегодня мы выясним, "
 "как жители Бишкека относятся к этому."
-msgstr ""
+msgstr "The issue of violence has been of the major problems of Kyrgyz society. And today we will try to find out what the citizens of Bishkek think about it."
 
 #: system/templates/system/index.html:285
 #: system/templates/system/index.html:325
 #: system/templates/system/index.html:343
 msgid "Узнать больше"
-msgstr ""
+msgstr "More"
 
 #: system/templates/system/index.html:299
 msgid "“Выпускники детских домов в Кыргызстане”"
-msgstr ""
+msgstr "Careleavers in Kyrgyzstan"
 
 #: system/templates/system/index.html:302
 msgid ""
 " В этом репортаже мы расскажем вам о том, с какими проблемами сталкиваются "
 "выпускники детских домов Кыргызстана."
-msgstr ""
+msgstr "In this reportage, we will tell you about the problems young people face when they leave orphanages."
 
 #: system/templates/system/index.html:318
 msgid "Видео"
-msgstr ""
+msgstr "Video"
 
 #: system/templates/system/index.html:321
 msgid "“Вор”"
-msgstr ""
+msgstr "Thief"
 
 #: system/templates/system/index.html:322
 msgid ""
 "Пришло время увидеть традицию воровства невест глазами парней. История "
 "молодого парня, погубившего судьбу случайной прохожей. Желание создать семью "
 "обернулось плохими последствиями..."
-msgstr ""
+msgstr "Now its time to take a look at the tradition of bride-kidnapping through the eyes of a man. The story of a young man who broke the life of a girl he hardly knew. His desire to create a family has resulted in sad consequences."
 
 #: system/templates/system/index.html:336
-msgid "Документ"
-msgstr ""
+msgid "Статья"
+msgstr "Article"
 
 #: system/templates/system/index.html:339
-msgid "ЗВОНИТЕ КОГДА БУДУТ УБИВАТЬ!"
-msgstr ""
+msgid "Почему девочки в селах рано выходят замуж?"
+msgstr "Why do girls in villages get married early?"
 
 #: system/templates/system/index.html:340
-msgid "Отчет Humans rights Watch 2015"
-msgstr ""
+msgid "Наше исследование"
+msgstr "Our research"
 
 #: system/templates/system/index.html:369
 msgid "АНЯ"
@@ -484,11 +483,26 @@ msgstr ""
 "made the right decision and that now I can gain sufficient knowledge for "
 "helping others."
 
-#: system/templates/system/index.html:482
+#: system/templates/system/index.html:468
+msgid "Рахатай"
+msgstr "Rahatai"
+
+#: system/templates/system/index.html:471
+msgid ""
+"Когда я начала посещать медиакурсы, я поняла что как много я не знаю об "
+"использовании медиа в современном мире. Мы изучали журналистику, навыки "
+"фотографии, фотошоп, и многое другое. Сейчас данные навыки я применяю в "
+"работе. Благодаря медиашколе я освоила новую профессию, которая помогает мне "
+"дальше развиваться."
+msgstr "When i started attending media courses i realized that i didn't know much about using media in the modern world. We studied Journalism, photo and video, and other skills. During our practical tasks we wrote articles and took interviews. Niw i use all these skills in my work. Thanks to the media school, i have a set of skills and keep developing them."
+
+
+
+#: system/templates/system/index.html:480
 msgid "ПОЖЕРТВОВАТЬ:"
 msgstr "DONATE"
 
-#: system/templates/system/index.html:487
+#: system/templates/system/index.html:485
 msgid "С вашей помощью, мы можем построить будущее без насилия в Кыргызстане"
 msgstr ""
 "Please support us in creating a community safe from violence in Kyrgyzstan"

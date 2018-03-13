@@ -16,4 +16,5 @@ class HomeView(TemplateView):
         if request.method == 'POST':
             user_language = self.request.POST.get('lang')
             translation.activate(user_language)
+
         return render(request, self.template_name)
