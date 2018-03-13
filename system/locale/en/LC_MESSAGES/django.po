@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-13 19:30+0600\n"
+"POT-Creation-Date: 2018-03-13 20:22+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -338,7 +338,9 @@ msgstr "Report"
 msgid ""
 "Отчет об исследовании судебной практики в Кыргызской Республике по "
 "преступлениям в отношении женщин и детей. 3 января 2018 года"
-msgstr "Report on research of judicial practice in Kyrgyzstan concerning crimes against women and children as of January 3, 2018"
+msgstr ""
+"Report on research of judicial practice in Kyrgyzstan concerning crimes "
+"against women and children as of January 3, 2018"
 
 #: system/templates/system/index.html:277
 #: system/templates/system/index.html:296
@@ -353,7 +355,13 @@ msgstr "Home violence in Kyrgyzstan"
 msgid ""
 "Проблема насилия в семье была и остаётся ещё издревле. Сегодня мы выясним, "
 "как жители Бишкека относятся к этому."
-msgstr "The issue of violence has been of the major problems of Kyrgyz society. And today we will try to find out what the citizens of Bishkek think about it."
+msgstr ""
+"The issue of violence has been of the major problems of Kyrgyz society. And "
+"today we will try to find out what the citizens of Bishkek think about it."
+
+#: system/templates/system/index.html:285
+msgid "https://www.youtube.com/watch?v=l5p4bv8pOjs&t=1s"
+msgstr "https://www.youtube.com/watch?v=zS3dhLjKxFY"
 
 #: system/templates/system/index.html:285
 #: system/templates/system/index.html:325
@@ -369,7 +377,9 @@ msgstr "Careleavers in Kyrgyzstan"
 msgid ""
 " В этом репортаже мы расскажем вам о том, с какими проблемами сталкиваются "
 "выпускники детских домов Кыргызстана."
-msgstr "In this reportage, we will tell you about the problems young people face when they leave orphanages."
+msgstr ""
+"In this reportage, we will tell you about the problems young people face "
+"when they leave orphanages."
 
 #: system/templates/system/index.html:318
 msgid "Видео"
@@ -384,7 +394,14 @@ msgid ""
 "Пришло время увидеть традицию воровства невест глазами парней. История "
 "молодого парня, погубившего судьбу случайной прохожей. Желание создать семью "
 "обернулось плохими последствиями..."
-msgstr "Now its time to take a look at the tradition of bride-kidnapping through the eyes of a man. The story of a young man who broke the life of a girl he hardly knew. His desire to create a family has resulted in sad consequences."
+msgstr ""
+"Now its time to take a look at the tradition of bride-kidnapping through the "
+"eyes of a man. The story of a young man who broke the life of a girl he "
+"hardly knew. His desire to create a family has resulted in sad consequences."
+
+#: system/templates/system/index.html:325
+msgid "https://www.youtube.com/watch?v=H539FAw6Sv0&t=7s"
+msgstr "https://www.youtube.com/watch?v=mrl1e2ODN8U"
 
 #: system/templates/system/index.html:336
 msgid "Статья"
@@ -494,9 +511,12 @@ msgid ""
 "фотографии, фотошоп, и многое другое. Сейчас данные навыки я применяю в "
 "работе. Благодаря медиашколе я освоила новую профессию, которая помогает мне "
 "дальше развиваться."
-msgstr "When i started attending media courses i realized that i didn't know much about using media in the modern world. We studied Journalism, photo and video, and other skills. During our practical tasks we wrote articles and took interviews. Niw i use all these skills in my work. Thanks to the media school, i have a set of skills and keep developing them."
-
-
+msgstr ""
+"When i started attending media courses i realized that i didn't know much "
+"about using media in the modern world. We studied Journalism, photo and "
+"video, and other skills. During our practical tasks we wrote articles and "
+"took interviews. Niw i use all these skills in my work. Thanks to the media "
+"school, i have a set of skills and keep developing them."
 
 #: system/templates/system/index.html:480
 msgid "ПОЖЕРТВОВАТЬ:"
