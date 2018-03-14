@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-13 20:22+0600\n"
+"POT-Creation-Date: 2018-03-14 16:11+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -325,7 +325,10 @@ msgstr "State Response to Domestic Violence in Kyrgyzstan. October 28, 2015"
 
 #: system/templates/system/index.html:242
 #: system/templates/system/index.html:261
+#: system/templates/system/index.html:285
 #: system/templates/system/index.html:307
+#: system/templates/system/index.html:325
+#: system/templates/system/index.html:343
 msgid "Просмотреть"
 msgstr "Read more"
 
@@ -363,12 +366,6 @@ msgstr ""
 msgid "https://www.youtube.com/watch?v=l5p4bv8pOjs&t=1s"
 msgstr "https://www.youtube.com/watch?v=zS3dhLjKxFY"
 
-#: system/templates/system/index.html:285
-#: system/templates/system/index.html:325
-#: system/templates/system/index.html:343
-msgid "Узнать больше"
-msgstr "More"
-
 #: system/templates/system/index.html:299
 msgid "“Выпускники детских домов в Кыргызстане”"
 msgstr "Careleavers in Kyrgyzstan"
@@ -387,7 +384,7 @@ msgstr "Video"
 
 #: system/templates/system/index.html:321
 msgid "“Вор”"
-msgstr "Thief"
+msgstr "Kidnapper"
 
 #: system/templates/system/index.html:322
 msgid ""
@@ -526,3 +523,6 @@ msgstr "DONATE"
 msgid "С вашей помощью, мы можем построить будущее без насилия в Кыргызстане"
 msgstr ""
 "Please support us in creating a community safe from violence in Kyrgyzstan"
+
+#~ msgid "Узнать больше"
+#~ msgstr "More"

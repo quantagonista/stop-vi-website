@@ -20,7 +20,7 @@
 
     </div>
 
-    <h1 class="white">{% trans 'О НАС' %}</h1>
+    <h1 id="about" class="white">{% trans 'О НАС' %}</h1>
     <div class="block white">
         <p class="desc h5 thin col-md-6 offset-md-3">
 
@@ -72,7 +72,7 @@
                 <div class="col">
                     <div class="text-right h1 text-uppercase">{% trans 'НАШИ ЦЕННОСТИ' %} :</div>
                     <p class="font-weight-bold h3">{% trans 'Всецелое развитие человека' %}.</p>
-                    <p class="col-md-8 offset-md-4 h5 thin">
+                    <p class="col-md-8 offset-md-4 h5 thin mb-4">
 
                         {% blocktrans %}Мы ценим всецелое развитие человека: духовное, эмоциональное, физическое и
                             интеллектуальное.{% endblocktrans %}
@@ -83,7 +83,7 @@
 
                 <div class="col">
                     <p class="font-weight-bold h3">{% trans 'Эмоциональное исцеление и восстановление' %}.</p>
-                    <p class="col-md-8 offset-md-4 h5 thin ">
+                    <p class="col-md-8 offset-md-4 h5 thin mb-4">
                         {% blocktrans %}Мы верим в эмоциональное исцеление и восстановление людей, переживших
                             насилие.{% endblocktrans %}
 
@@ -92,7 +92,7 @@
 
                 <div class="col">
                     <p class="font-weight-bold h3">{% trans 'Раскрытие потенциала человека' %}.</p>
-                    <p class="col-md-8 offset-md-4 h5 thin">
+                    <p class="col-md-8 offset-md-4 h5 thin mb-4">
 
                         {% blocktrans %}Мы верим, что человек был создан Богом с неограниченным потенциалом, который мы
                             хотим помочь человеку раскрыть.{% endblocktrans %}
@@ -103,7 +103,7 @@
 
                 <div class="col">
                     <p class="font-weight-bold h3">{% trans 'Равные возможности.' %}</p>
-                    <p class="col-md-8 offset-md-4 h5 thin">
+                    <p class="col-md-8 offset-md-4 h5 thin mb-4">
                         {% blocktrans %}Мы верим, все имеют право на равные возможности в обучении, развитии и
                             трудоустройстве{% endblocktrans %}
 
@@ -117,7 +117,7 @@
 
 
 
-    <h1 class="blue">{% trans 'КАК МЫ РАБОТАЕМ:' %}</h1>
+    <h1 id="work" class="blue">{% trans 'КАК МЫ РАБОТАЕМ:' %}</h1>
     <div class="block white">
         {% if LANGUAGE_CODE == 'ru' %}
             <img src="{% static 'img/stop-vi-ru.gif' %}" alt="" class="img-fluid">
@@ -127,7 +127,7 @@
     </div>
 
 
-    <h1 class="blue">{% trans 'ГДЕ МЫ РАБОТАЕМ:' %}</h1>
+    <h1 id="where" class="blue">{% trans 'ГДЕ МЫ РАБОТАЕМ:' %}</h1>
     <div class="block blue">
 
         <div class="row">
@@ -220,7 +220,7 @@
     </div>
 
 
-    <h1 class="blue">{% trans 'МЕДИА БЛОГ:' %}</h1>
+    <h1 id="media" class="blue">{% trans 'МЕДИА БЛОГ:' %}</h1>
 
     <div class="block white">
         <div class="container">
@@ -228,9 +228,9 @@
             <div class="row">
                 <div class="col-md-9 col-sm-12">
                     <div class="card blue m-3">
-                        <img class="card-img-top" src="{% static 'img/vio-1.jpg' %}" alt="Card image cap">
+                        <img class="card-img-top" src="{% static 'img/hrw.jpg' %}" alt="Card image cap">
                         <div class="glyph p-1">
-                            <img src="{% static 'img/file.svg' %} " width="25px">
+                            <img src="{% static 'img/open-book.svg' %} " width="25px">
                             {% trans 'Доклад' %}
                         </div>
                         <div class="block p-3">
@@ -249,7 +249,7 @@
                     <div class="card blue m-3 flex-column">
                         <img class="img-fluid p-1" src="{% static 'img/content.gif' %}" alt="Card image cap">
                         <div class="glyph p-1">
-                            <img src="{% static 'img/file.svg' %}" width="25px">
+                            <img src="{% static 'img/open-book.svg' %}" width="25px">
                             {% trans 'Отчет' %}
                         </div>
                         <div class="p-3">
@@ -271,9 +271,9 @@
 
                 <div class="col-md col-sm-12 d-flex">
                     <div class="card blue m-3">
-                        <img class="card-img-top" src="{% static 'img/vi-4.jpg' %}" alt="Card image cap">
+                        <img class="card-img-top" src="{% static 'img/home_violence.jpg' %}" alt="Card image cap">
                         <div class="glyph p-1">
-                            <img src="{% static 'img/file.svg' %} " width="25px">
+                            <img src="{% static 'img/video.svg' %} " width="25px">
                             {% trans 'Репортаж' %}
                         </div>
                         <div class="card-block p-3">
@@ -282,7 +282,7 @@
                             </p>
                         </div>
                         <div class="card-footer">
-                            <a href="{% trans 'https://www.youtube.com/watch?v=l5p4bv8pOjs&t=1s' %}" class="btn btn-donate">{% trans 'Узнать больше' %}></a>
+                            <a target="_blank" href="{% trans 'https://www.youtube.com/watch?v=l5p4bv8pOjs&t=1s' %}" class="btn btn-donate">{% trans 'Просмотреть' %}</a>
                         </div>
                     </div>
                 </div>
@@ -290,7 +290,7 @@
 
                 <div class="col-md col-sm-12 d-flex">
                     <div class="card blue m-3">
-                        <img class="card-img-top" src="{% static 'img/vio-2.jpg' %}" alt="Card image cap">
+                        <img class="card-img-top" src="{% static 'img/careleaver.jpg' %}" alt="Card image cap">
                         <div class="glyph p-1">
                             <img src="{% static 'img/video.svg' %} " width="25px">
                             {% trans 'Репортаж' %}
@@ -304,7 +304,7 @@
                             </p>
                         </div>
                         <div class="card-footer">
-                            <a href="https://www.youtube.com/watch?v=mNEY34AbVPA&t=9s" class="btn btn-donate">{% trans 'Просмотреть' %}</a>
+                            <a target="_blank" href="https://www.youtube.com/watch?v=mNEY34AbVPA&t=9s" class="btn btn-donate">{% trans 'Просмотреть' %}</a>
                         </div>
                     </div>
                 </div>
@@ -312,9 +312,9 @@
 
                 <div class="col-md col-sm-12 d-flex">
                     <div class="card blue m-3">
-                        <img class="card-img-top" src="{% static 'img/vio-3.jpg' %}" alt="Card image cap">
+                        <img class="card-img-top" src="{% static 'img/kidnapper.jpg' %}" alt="Card image cap">
                         <div class="glyph p-1">
-                            <img src="{% static 'img/open-book.svg' %} " width="25px">
+                            <img src="{% static 'img/video.svg' %} " width="25px">
                             {% trans 'Видео' %}
                         </div>
                         <div class="card-block p-3">
@@ -322,7 +322,7 @@
                             <p class="card-text">{% trans 'Пришло время увидеть традицию воровства невест глазами парней. История молодого парня, погубившего судьбу случайной прохожей. Желание создать семью обернулось плохими последствиями...' %}</p>
                         </div>
                         <div class="card-footer">
-                            <a href="{% trans 'https://www.youtube.com/watch?v=H539FAw6Sv0&t=7s' %}" class="btn btn-donate">{% trans 'Узнать больше' %} ></a>
+                            <a target="_blank" href="{% trans 'https://www.youtube.com/watch?v=H539FAw6Sv0&t=7s' %}" class="btn btn-donate">{% trans 'Просмотреть' %}</a>
                         </div>
                     </div>
                 </div>
@@ -330,7 +330,7 @@
 
                 <div class="col-md col-sm-12 d-flex">
                     <div class="card blue m-3">
-                        <img class="card-img-top" src="{% static 'img/vio-3.jpg' %}" alt="Card image cap">
+                        <img class="card-img-top" src="{% static 'img/early_marriage.jpg' %}" alt="Card image cap">
                         <div class="glyph p-1">
                             <img src="{% static 'img/file.svg' %} " width="25px">
                             {% trans 'Статья' %}
@@ -340,7 +340,7 @@
                             <p class="card-text">{% trans 'Наше исследование' %}</p>
                         </div>
                         <div class="card-footer">
-                            <a href="https://kaktus.media/doc/367357_pochemy_devochki_v_selah_rano_vyhodiat_zamyj_issledovanie.html" class="btn btn-donate">{% trans 'Узнать больше' %} ></a>
+                            <a target="_blank" href="https://kaktus.media/doc/367357_pochemy_devochki_v_selah_rano_vyhodiat_zamyj_issledovanie.html" class="btn btn-donate">{% trans 'Просмотреть' %}</a>
                         </div>
                     </div>
                 </div>
@@ -353,7 +353,7 @@
     </div>
 
 
-    <h1 class="blue">{% trans 'ЖИЗНЕННЫЕ ИСТОРИИ' %}:</h1>
+    <h1 id="stories" class="blue">{% trans 'ЖИЗНЕННЫЕ ИСТОРИИ' %}:</h1>
     <div class="block white">
 
 
@@ -462,7 +462,7 @@
             <div class="col-sm-12 col-md">
                 <div class="row">
                     <div class=" col-sm-12 col-md ">
-                        <img class="img-fluid rounded" src="{% static 'img/content.gif' %}">
+                        <img class="img-fluid rounded" src="{% static 'img/design.gif' %}">
                     </div>
                     <div class="col-sm-12 col-md">
                         <div class="name h5 text-left ">{% trans 'Рахатай' %}</div>
@@ -477,7 +477,7 @@
     </div>
 
 
-    <h1 id="end" class="white mt-2">{% trans 'ПОЖЕРТВОВАТЬ:' %}</h1>
+    <h1 id="donate" class="white mt-2">{% trans 'ПОЖЕРТВОВАТЬ:' %}</h1>
     <div class="block m-0">
 
         <div class=" h3 blue p-3 mb-5">
