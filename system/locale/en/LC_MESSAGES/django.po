@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-14 16:11+0600\n"
+"POT-Creation-Date: 2018-06-10 22:58+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgstr "WHERE WE WORK"
 msgid "МЕДИА БЛОГ"
 msgstr "MEDIA BLOG"
 
-#: system/templates/system/base.html:32 system/templates/system/index.html:356
+#: system/templates/system/base.html:32 system/templates/system/index.html:434
 msgid "ЖИЗНЕННЫЕ ИСТОРИИ"
 msgstr "LIFE STORIES"
 
@@ -96,11 +96,11 @@ msgstr ""
 "prevention of any form of violence by means of education and active use of "
 "media."
 
-#: system/templates/system/index.html:36
+#: system/templates/system/index.html:34
 msgid "НАША МИССИЯ:"
 msgstr "MISSION"
 
-#: system/templates/system/index.html:42
+#: system/templates/system/index.html:40
 msgid ""
 "Мы занимаемся профилактикой любого вида насилия посредством медиа кампаний "
 "и\n"
@@ -112,7 +112,7 @@ msgstr ""
 "campaigns and active informing about violence problems in media space of "
 "Kyrgyzstan."
 
-#: system/templates/system/index.html:53
+#: system/templates/system/index.html:51
 msgid ""
 "Мы обучаем уязвимые слои населения Кыргызстане, находящиеся в группе риска,\n"
 "                            практическим и жизненным навыкам."
@@ -120,7 +120,7 @@ msgstr ""
 "We train vulnerable groups of the population of Kyrgyzstan who are in risk, "
 "in practical skills and life skills. "
 
-#: system/templates/system/index.html:63
+#: system/templates/system/index.html:61
 msgid ""
 "Мы создаем контент с вдохновляющими историями для продвижения "
 "положительного\n"
@@ -129,15 +129,15 @@ msgstr ""
 "We create content with inspiring stories for promoting a positive way of "
 "life without violence"
 
-#: system/templates/system/index.html:73
+#: system/templates/system/index.html:71
 msgid "НАШИ ЦЕННОСТИ"
 msgstr "VALUES"
 
-#: system/templates/system/index.html:74
+#: system/templates/system/index.html:72
 msgid "Всецелое развитие человека"
 msgstr "Holistic development of the person"
 
-#: system/templates/system/index.html:77
+#: system/templates/system/index.html:75
 msgid ""
 "Мы ценим всецелое развитие человека: духовное, эмоциональное, физическое и\n"
 "                            интеллектуальное."
@@ -145,11 +145,11 @@ msgstr ""
 "We appreciate holistic development of the person: spiritual, emotional, "
 "physical and intellectual."
 
-#: system/templates/system/index.html:85
+#: system/templates/system/index.html:83
 msgid "Эмоциональное исцеление и восстановление"
 msgstr "Emotional healing and restoration. "
 
-#: system/templates/system/index.html:87
+#: system/templates/system/index.html:85
 msgid ""
 "Мы верим в эмоциональное исцеление и восстановление людей, переживших\n"
 "                            насилие."
@@ -157,11 +157,11 @@ msgstr ""
 "We believe in emotional healing and recovery for the people who have endured "
 "violence."
 
-#: system/templates/system/index.html:94
+#: system/templates/system/index.html:92
 msgid "Раскрытие потенциала человека"
 msgstr "Reveal potential of the person."
 
-#: system/templates/system/index.html:97
+#: system/templates/system/index.html:95
 msgid ""
 "Мы верим, что человек был создан Богом с неограниченным потенциалом, который "
 "мы\n"
@@ -170,11 +170,11 @@ msgstr ""
 "We believe that every person has been created by God with unlimited "
 "potential and we want to help the person to reveal it."
 
-#: system/templates/system/index.html:105
+#: system/templates/system/index.html:103
 msgid "Равные возможности."
 msgstr "Equal opportunities."
 
-#: system/templates/system/index.html:107
+#: system/templates/system/index.html:105
 msgid ""
 "Мы верим, все имеют право на равные возможности в обучении, развитии и\n"
 "                            трудоустройстве"
@@ -182,15 +182,15 @@ msgstr ""
 "We believe that all people have the right for equal opportunities in "
 "training, development and employment."
 
-#: system/templates/system/index.html:120
+#: system/templates/system/index.html:116
 msgid "КАК МЫ РАБОТАЕМ:"
 msgstr "WHAT WE DO:"
 
-#: system/templates/system/index.html:130
+#: system/templates/system/index.html:126
 msgid "ГДЕ МЫ РАБОТАЕМ:"
 msgstr "WHERE WE WORK:"
 
-#: system/templates/system/index.html:139
+#: system/templates/system/index.html:135
 msgid ""
 "Республика Кыргызстан находится в самом центре Средней Азии, большую часть "
 "занимают горные склоны. К сожалению, Кыргызстан является одной из самых "
@@ -211,7 +211,7 @@ msgstr ""
 "pay attention to these problems, even though the most vulnerable groups are "
 "affected by these problems: orphans, women, and children."
 
-#: system/templates/system/index.html:149
+#: system/templates/system/index.html:145
 msgid ""
 "Общественный Фонд “Стоп Ви” – это некоммерческая организация, которая "
 "работает в Кыргызстане."
@@ -219,7 +219,7 @@ msgstr ""
 "Public Foundation Stop Vi is a non commercial organization that works in "
 "Kyrgyzstan."
 
-#: system/templates/system/index.html:155
+#: system/templates/system/index.html:151
 msgid ""
 " Благодаря работе нашей команды происходят положительные изменения в жизни "
 "тех, кто в этом больше всего нуждается."
@@ -227,15 +227,15 @@ msgstr ""
 "With the help of our team we see positive changes in the lives of those who "
 "need help most of all."
 
-#: system/templates/system/index.html:160
+#: system/templates/system/index.html:156
 msgid "НАШИ ПРОЕКТЫ"
 msgstr "PROJECTS"
 
-#: system/templates/system/index.html:168
+#: system/templates/system/index.html:164
 msgid "Медиа Школа для уязвимой молодежи"
 msgstr "Media School Project for Vulnerable Youth"
 
-#: system/templates/system/index.html:170
+#: system/templates/system/index.html:166
 msgid ""
 "Общественный Фонд \"Стоп Ви\" проводит обучение для выпускников детских "
 "домов, преподавая им основные навыки СМИ. Молодые люди осваивают навыки "
@@ -249,11 +249,11 @@ msgstr ""
 "developing their talents. And also during the training we talk with them "
 "about Life skills and risks."
 
-#: system/templates/system/index.html:181
+#: system/templates/system/index.html:177
 msgid "Школа по предотвращению насилия для местных активистов"
 msgstr "School on Violence Prevention for Local Activists"
 
-#: system/templates/system/index.html:187
+#: system/templates/system/index.html:183
 msgid ""
 "Ежегодно в Кыргызстане происходит 2500 случаев насилия в отношении женщин и "
 "детей, такие как похищение невест, изнасилования и ранние браки (девочки "
@@ -268,11 +268,11 @@ msgstr ""
 "Violence Prevention\" training local activists who work with victims of "
 "violence."
 
-#: system/templates/system/index.html:197
+#: system/templates/system/index.html:193
 msgid "Медиа Студия"
 msgstr "Studio of Media Content Production"
 
-#: system/templates/system/index.html:201
+#: system/templates/system/index.html:197
 msgid ""
 "Миссия \"Стоп Ви\" заключается в повышении осведомленности, информировании, "
 "обучении и предотвращении насилия. С этой целью мы активно используем все "
@@ -287,11 +287,11 @@ msgstr ""
 "and ways of getting help for those who find themselves as victims or wanting "
 "to help the victims."
 
-#: system/templates/system/index.html:212
+#: system/templates/system/index.html:208
 msgid "Лекции для старшеклассников"
 msgstr "High School Lectures"
 
-#: system/templates/system/index.html:215
+#: system/templates/system/index.html:211
 msgid ""
 "Наша команда волонтеров проводит лекции по предотвращению ранних браков и "
 "опасного поведения для учеников старших классов сельских школ Кыргызстана. "
@@ -305,39 +305,42 @@ msgstr ""
 "on developing their strengths and talents, escaping risky situations and "
 "decisions in their future life. "
 
-#: system/templates/system/index.html:223
+#: system/templates/system/index.html:219
 msgid "МЕДИА БЛОГ:"
 msgstr "MEDIA BLOG"
 
-#: system/templates/system/index.html:234
-msgid "Доклад"
-msgstr "Report"
+#: system/templates/system/index.html:230
+#: system/templates/system/index.html:395
+msgid "Видео"
+msgstr "Video"
 
-#: system/templates/system/index.html:237
-msgid "\"Вызывайте, когда будет убивать” от Хьюман Райтс Вотч."
-msgstr "\"Call me when he tries to kill you\", – Human Rights Watch"
+#: system/templates/system/index.html:233
+msgid "Кто такие Stop Vi"
+msgstr ""
+
+#: system/templates/system/index.html:234
+msgid "Презентация нашего фонда"
+msgstr ""
 
 #: system/templates/system/index.html:238
-msgid ""
-"Реагирование государства на семейное насилие в Кыргызстане. 28 октября 2015 "
-"года"
-msgstr "State Response to Domestic Violence in Kyrgyzstan. October 28, 2015"
-
-#: system/templates/system/index.html:242
-#: system/templates/system/index.html:261
-#: system/templates/system/index.html:285
-#: system/templates/system/index.html:307
-#: system/templates/system/index.html:325
-#: system/templates/system/index.html:343
+#: system/templates/system/index.html:257
+#: system/templates/system/index.html:281
+#: system/templates/system/index.html:303
+#: system/templates/system/index.html:321
+#: system/templates/system/index.html:339
+#: system/templates/system/index.html:362
+#: system/templates/system/index.html:384
+#: system/templates/system/index.html:402
+#: system/templates/system/index.html:420
 msgid "Просмотреть"
 msgstr "Read more"
 
-#: system/templates/system/index.html:253
-#: system/templates/system/index.html:256
+#: system/templates/system/index.html:249
+#: system/templates/system/index.html:252
 msgid "Отчет"
 msgstr "Report"
 
-#: system/templates/system/index.html:257
+#: system/templates/system/index.html:253
 msgid ""
 "Отчет об исследовании судебной практики в Кыргызской Республике по "
 "преступлениям в отношении женщин и детей. 3 января 2018 года"
@@ -345,16 +348,67 @@ msgstr ""
 "Report on research of judicial practice in Kyrgyzstan concerning crimes "
 "against women and children as of January 3, 2018"
 
+#: system/templates/system/index.html:273
+#: system/templates/system/index.html:314
+msgid "Мнение Эксперта"
+msgstr ""
+
+#: system/templates/system/index.html:276
+msgid "“Насилие в школах”"
+msgstr ""
+
 #: system/templates/system/index.html:277
-#: system/templates/system/index.html:296
+msgid ""
+"Почему дети проявляют агрессию в школах? Кто в этом виноват? Как это "
+"исправить? Разобраться в этом поможет директор ОФ \"Лига защитников прав "
+"ребенка\""
+msgstr ""
+
+#: system/templates/system/index.html:292
+#: system/templates/system/index.html:354
+#: system/templates/system/index.html:373
 msgid "Репортаж"
 msgstr "Reportage"
 
-#: system/templates/system/index.html:280
+#: system/templates/system/index.html:295
+msgid "“Буллинг в Кыргызстане”"
+msgstr "Home violence in Kyrgyzstan"
+
+#: system/templates/system/index.html:298
+msgid ""
+" Что такое Буллинг? Почему он распространился в Кыргызстане? Подробности в "
+"репортаже "
+msgstr ""
+
+#: system/templates/system/index.html:317
+msgid "“Как не стать жертвой торговли людьми?”"
+msgstr ""
+
+#: system/templates/system/index.html:318
+msgid ""
+"Советы от нашего эксперта, как не стать жертвой торговли людьми, устраиваясь "
+"на работу за границу"
+msgstr ""
+
+#: system/templates/system/index.html:332
+msgid "Доклад"
+msgstr "Report"
+
+#: system/templates/system/index.html:335
+msgid "\"Вызывайте, когда будет убивать”"
+msgstr "\"Call me when he tries to kill you\", – Human Rights Watch"
+
+#: system/templates/system/index.html:336
+msgid ""
+"Доклад от Хьюман Райтс Вотч.Реагирование государства на семейное насилие в "
+"Кыргызстане. 28 октября 2015 года"
+msgstr "State Response to Domestic Violence in Kyrgyzstan. October 28, 2015"
+
+#: system/templates/system/index.html:357
 msgid "“Домашнее насилие в Кыргызстане”"
 msgstr "Home violence in Kyrgyzstan"
 
-#: system/templates/system/index.html:281
+#: system/templates/system/index.html:358
 msgid ""
 "Проблема насилия в семье была и остаётся ещё издревле. Сегодня мы выясним, "
 "как жители Бишкека относятся к этому."
@@ -362,15 +416,15 @@ msgstr ""
 "The issue of violence has been of the major problems of Kyrgyz society. And "
 "today we will try to find out what the citizens of Bishkek think about it."
 
-#: system/templates/system/index.html:285
+#: system/templates/system/index.html:362
 msgid "https://www.youtube.com/watch?v=l5p4bv8pOjs&t=1s"
 msgstr "https://www.youtube.com/watch?v=zS3dhLjKxFY"
 
-#: system/templates/system/index.html:299
+#: system/templates/system/index.html:376
 msgid "“Выпускники детских домов в Кыргызстане”"
 msgstr "Careleavers in Kyrgyzstan"
 
-#: system/templates/system/index.html:302
+#: system/templates/system/index.html:379
 msgid ""
 " В этом репортаже мы расскажем вам о том, с какими проблемами сталкиваются "
 "выпускники детских домов Кыргызстана."
@@ -378,15 +432,11 @@ msgstr ""
 "In this reportage, we will tell you about the problems young people face "
 "when they leave orphanages."
 
-#: system/templates/system/index.html:318
-msgid "Видео"
-msgstr "Video"
-
-#: system/templates/system/index.html:321
+#: system/templates/system/index.html:398
 msgid "“Вор”"
 msgstr "Kidnapper"
 
-#: system/templates/system/index.html:322
+#: system/templates/system/index.html:399
 msgid ""
 "Пришло время увидеть традицию воровства невест глазами парней. История "
 "молодого парня, погубившего судьбу случайной прохожей. Желание создать семью "
@@ -396,27 +446,27 @@ msgstr ""
 "eyes of a man. The story of a young man who broke the life of a girl he "
 "hardly knew. His desire to create a family has resulted in sad consequences."
 
-#: system/templates/system/index.html:325
+#: system/templates/system/index.html:402
 msgid "https://www.youtube.com/watch?v=H539FAw6Sv0&t=7s"
 msgstr "https://www.youtube.com/watch?v=mrl1e2ODN8U"
 
-#: system/templates/system/index.html:336
+#: system/templates/system/index.html:413
 msgid "Статья"
 msgstr "Article"
 
-#: system/templates/system/index.html:339
+#: system/templates/system/index.html:416
 msgid "Почему девочки в селах рано выходят замуж?"
 msgstr "Why do girls in villages get married early?"
 
-#: system/templates/system/index.html:340
+#: system/templates/system/index.html:417
 msgid "Наше исследование"
 msgstr "Our research"
 
-#: system/templates/system/index.html:369
+#: system/templates/system/index.html:447
 msgid "АНЯ"
 msgstr "Anya"
 
-#: system/templates/system/index.html:372
+#: system/templates/system/index.html:450
 msgid ""
 "Школа Импакт медиа - это обучение чему-то новому, хорошие учителя, любящие "
 "то, чем занимаются. Импакт медиа - это запах свежей весны и съёмок в жару. "
@@ -430,11 +480,11 @@ msgstr ""
 "photo in our youth project. Next year I plan to apply to the university to "
 "study Journalism further!"
 
-#: system/templates/system/index.html:385
+#: system/templates/system/index.html:463
 msgid "ВЛАД"
 msgstr "Vlad"
 
-#: system/templates/system/index.html:389
+#: system/templates/system/index.html:467
 msgid ""
 "Для меня обучение в школе Импакт Медиа был очень полезным опытом! Всегда с "
 "радостью посещал занятия, особенно мне нравилось работать с камерой, когда "
@@ -448,11 +498,11 @@ msgstr ""
 "then video shooting and editing! It was cool! Now I continue to develop my "
 "skills in this area and I’m making a script for a movie."
 
-#: system/templates/system/index.html:408
+#: system/templates/system/index.html:486
 msgid "СВЕТЛАНА"
 msgstr "Svetlana"
 
-#: system/templates/system/index.html:412
+#: system/templates/system/index.html:490
 msgid ""
 "Я работаю с социально уязвимыми женщинами, оказавшимися в ситуации риска и "
 "очень благодарна за возможность посещать ваши тренинги. Узнала много "
@@ -464,11 +514,11 @@ msgstr ""
 "have received a lot of practical information on the problem of violence in "
 "our country and how to help the victims."
 
-#: system/templates/system/index.html:426
+#: system/templates/system/index.html:504
 msgid "ЛАРИСА"
 msgstr "Larisa"
 
-#: system/templates/system/index.html:430
+#: system/templates/system/index.html:508
 msgid ""
 "Очень своевременные курсы! Я получила много практических знаний и теперь "
 "более уверенно чувствую себя, если ко мне обращаются по вопросам, связанным "
@@ -478,11 +528,11 @@ msgstr ""
 "feel more confident if someone addresses me on the issues connected with "
 "violence. Unfortunately there are still too many women who suffer."
 
-#: system/templates/system/index.html:449
+#: system/templates/system/index.html:527
 msgid "ЧИНАРА"
 msgstr "Chinara"
 
-#: system/templates/system/index.html:453
+#: system/templates/system/index.html:531
 msgid ""
 "Я сама пережила семейное насилие более 10 лет в моей семье. Я прошла очень "
 "болезненный процесс реабилитации и теперь хочу помогать тем, кто не видит "
@@ -497,11 +547,11 @@ msgstr ""
 "made the right decision and that now I can gain sufficient knowledge for "
 "helping others."
 
-#: system/templates/system/index.html:468
+#: system/templates/system/index.html:546
 msgid "Рахатай"
 msgstr "Rahatai"
 
-#: system/templates/system/index.html:471
+#: system/templates/system/index.html:549
 msgid ""
 "Когда я начала посещать медиакурсы, я поняла что как много я не знаю об "
 "использовании медиа в современном мире. Мы изучали журналистику, навыки "
@@ -515,14 +565,12 @@ msgstr ""
 "took interviews. Niw i use all these skills in my work. Thanks to the media "
 "school, i have a set of skills and keep developing them."
 
-#: system/templates/system/index.html:480
+#: system/templates/system/index.html:558
 msgid "ПОЖЕРТВОВАТЬ:"
 msgstr "DONATE"
 
-#: system/templates/system/index.html:485
+#: system/templates/system/index.html:563
 msgid "С вашей помощью, мы можем построить будущее без насилия в Кыргызстане"
 msgstr ""
 "Please support us in creating a community safe from violence in Kyrgyzstan"
 
-#~ msgid "Узнать больше"
-#~ msgstr "More"
