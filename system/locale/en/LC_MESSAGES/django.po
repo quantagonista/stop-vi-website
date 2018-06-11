@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-10 22:58+0600\n"
+"POT-Creation-Date: 2018-06-11 10:32+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -310,30 +310,26 @@ msgid "МЕДИА БЛОГ:"
 msgstr "MEDIA BLOG"
 
 #: system/templates/system/index.html:230
-#: system/templates/system/index.html:395
+#: system/templates/system/index.html:396
 msgid "Видео"
 msgstr "Video"
 
 #: system/templates/system/index.html:233
 msgid "Кто такие Stop Vi"
-msgstr ""
+msgstr "Who is Stop Vi?"
 
 #: system/templates/system/index.html:234
 msgid "Презентация нашего фонда"
-msgstr ""
+msgstr "The presentation of our NGO"
 
 #: system/templates/system/index.html:238
-#: system/templates/system/index.html:257
 #: system/templates/system/index.html:281
-#: system/templates/system/index.html:303
-#: system/templates/system/index.html:321
-#: system/templates/system/index.html:339
-#: system/templates/system/index.html:362
-#: system/templates/system/index.html:384
-#: system/templates/system/index.html:402
-#: system/templates/system/index.html:420
-msgid "Просмотреть"
-msgstr "Read more"
+#: system/templates/system/index.html:304
+#: system/templates/system/index.html:322
+#: system/templates/system/index.html:363
+#: system/templates/system/index.html:403
+msgid "Посмотреть"
+msgstr "Watch"
 
 #: system/templates/system/index.html:249
 #: system/templates/system/index.html:252
@@ -348,14 +344,21 @@ msgstr ""
 "Report on research of judicial practice in Kyrgyzstan concerning crimes "
 "against women and children as of January 3, 2018"
 
+#: system/templates/system/index.html:257
+#: system/templates/system/index.html:340
+#: system/templates/system/index.html:385
+#: system/templates/system/index.html:421
+msgid "Узнать больше"
+msgstr "Read more"
+
 #: system/templates/system/index.html:273
-#: system/templates/system/index.html:314
+#: system/templates/system/index.html:315
 msgid "Мнение Эксперта"
-msgstr ""
+msgstr "Expert’s opinion"
 
 #: system/templates/system/index.html:276
 msgid "“Насилие в школах”"
-msgstr ""
+msgstr "“Violence at school”"
 
 #: system/templates/system/index.html:277
 msgid ""
@@ -363,52 +366,58 @@ msgid ""
 "исправить? Разобраться в этом поможет директор ОФ \"Лига защитников прав "
 "ребенка\""
 msgstr ""
+"Why do children demonstrate aggression at schools? Whose fault is it? How to "
+"fix it? The director of Public Foundation “The Child’s Rights Defenders "
+"League” will help us understand it better."
 
 #: system/templates/system/index.html:292
-#: system/templates/system/index.html:354
-#: system/templates/system/index.html:373
+#: system/templates/system/index.html:355
+#: system/templates/system/index.html:374
 msgid "Репортаж"
 msgstr "Reportage"
 
 #: system/templates/system/index.html:295
 msgid "“Буллинг в Кыргызстане”"
-msgstr "Home violence in Kyrgyzstan"
+msgstr "“Bullying in Kyrgyzstan”"
 
 #: system/templates/system/index.html:298
 msgid ""
 " Что такое Буллинг? Почему он распространился в Кыргызстане? Подробности в "
 "репортаже "
 msgstr ""
-
-#: system/templates/system/index.html:317
-msgid "“Как не стать жертвой торговли людьми?”"
-msgstr ""
+"What is bullying? Why is it spreading in Kyrgyzstan? More in the reportage."
 
 #: system/templates/system/index.html:318
+msgid "“Как не стать жертвой торговли людьми?”"
+msgstr "“How not to become a victim of human trafficking?”"
+
+#: system/templates/system/index.html:319
 msgid ""
 "Советы от нашего эксперта, как не стать жертвой торговли людьми, устраиваясь "
 "на работу за границу"
 msgstr ""
+"The advice from our expert on how not to become a victim of human "
+"trafficking while finding a job abroad."
 
-#: system/templates/system/index.html:332
+#: system/templates/system/index.html:333
 msgid "Доклад"
 msgstr "Report"
 
-#: system/templates/system/index.html:335
+#: system/templates/system/index.html:336
 msgid "\"Вызывайте, когда будет убивать”"
 msgstr "\"Call me when he tries to kill you\", – Human Rights Watch"
 
-#: system/templates/system/index.html:336
+#: system/templates/system/index.html:337
 msgid ""
 "Доклад от Хьюман Райтс Вотч.Реагирование государства на семейное насилие в "
 "Кыргызстане. 28 октября 2015 года"
 msgstr "State Response to Domestic Violence in Kyrgyzstan. October 28, 2015"
 
-#: system/templates/system/index.html:357
+#: system/templates/system/index.html:358
 msgid "“Домашнее насилие в Кыргызстане”"
 msgstr "Home violence in Kyrgyzstan"
 
-#: system/templates/system/index.html:358
+#: system/templates/system/index.html:359
 msgid ""
 "Проблема насилия в семье была и остаётся ещё издревле. Сегодня мы выясним, "
 "как жители Бишкека относятся к этому."
@@ -416,15 +425,15 @@ msgstr ""
 "The issue of violence has been of the major problems of Kyrgyz society. And "
 "today we will try to find out what the citizens of Bishkek think about it."
 
-#: system/templates/system/index.html:362
+#: system/templates/system/index.html:363
 msgid "https://www.youtube.com/watch?v=l5p4bv8pOjs&t=1s"
 msgstr "https://www.youtube.com/watch?v=zS3dhLjKxFY"
 
-#: system/templates/system/index.html:376
+#: system/templates/system/index.html:377
 msgid "“Выпускники детских домов в Кыргызстане”"
 msgstr "Careleavers in Kyrgyzstan"
 
-#: system/templates/system/index.html:379
+#: system/templates/system/index.html:380
 msgid ""
 " В этом репортаже мы расскажем вам о том, с какими проблемами сталкиваются "
 "выпускники детских домов Кыргызстана."
@@ -432,11 +441,11 @@ msgstr ""
 "In this reportage, we will tell you about the problems young people face "
 "when they leave orphanages."
 
-#: system/templates/system/index.html:398
+#: system/templates/system/index.html:399
 msgid "“Вор”"
 msgstr "Kidnapper"
 
-#: system/templates/system/index.html:399
+#: system/templates/system/index.html:400
 msgid ""
 "Пришло время увидеть традицию воровства невест глазами парней. История "
 "молодого парня, погубившего судьбу случайной прохожей. Желание создать семью "
@@ -446,19 +455,19 @@ msgstr ""
 "eyes of a man. The story of a young man who broke the life of a girl he "
 "hardly knew. His desire to create a family has resulted in sad consequences."
 
-#: system/templates/system/index.html:402
+#: system/templates/system/index.html:403
 msgid "https://www.youtube.com/watch?v=H539FAw6Sv0&t=7s"
 msgstr "https://www.youtube.com/watch?v=mrl1e2ODN8U"
 
-#: system/templates/system/index.html:413
+#: system/templates/system/index.html:414
 msgid "Статья"
 msgstr "Article"
 
-#: system/templates/system/index.html:416
+#: system/templates/system/index.html:417
 msgid "Почему девочки в селах рано выходят замуж?"
 msgstr "Why do girls in villages get married early?"
 
-#: system/templates/system/index.html:417
+#: system/templates/system/index.html:418
 msgid "Наше исследование"
 msgstr "Our research"
 
@@ -573,4 +582,3 @@ msgstr "DONATE"
 msgid "С вашей помощью, мы можем построить будущее без насилия в Кыргызстане"
 msgstr ""
 "Please support us in creating a community safe from violence in Kyrgyzstan"
-

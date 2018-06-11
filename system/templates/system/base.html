@@ -17,35 +17,39 @@
 <body>
 
 <div class="d-flex mb-3">
-        <div class="col mt-2">
+    <div class="col mt-2">
+        <a href="{% url 'home' %}">
             <img width="90%" src="{% static 'img/stopVilogo.gif' %}" class="img-fluid"/>
+        </a>
+    </div>
+
+    <div class="col-md-9 mt-1">
+        <div class="navbar-top ">
+            <nav class="row btn-sm btn-group-sm">
+                <div id="toogleButton" class="col btn btn-donate"><img class="img-fluid mr-2" width="10%"
+                                                                       src="{% static 'img/menu.gif' %}"> {% trans 'Меню' %}
+                </div>
+                <a class="col-sm-12 col-md btn nav-btn" href="#about"> {% trans 'О НАС' %} </a>
+                <a class="col-sm-12 col-md btn nav-btn" href="#work">{% trans 'КАК МЫ РАБОТАЕМ' %}</a>
+                <a class="col-sm-12 col-md btn nav-btn " href="#where">{% trans 'ГДЕ МЫ РАБОТАЕМ' %}</a>
+                <a class="col-sm-12 col-md btn nav-btn " href="#media">{% trans 'МЕДИА БЛОГ' %}</a>
+                <a class="col-sm-12 col-md btn nav-btn" href="#stories">{% trans 'ЖИЗНЕННЫЕ ИСТОРИИ' %}</a>
+                <a class="col-sm-12 col-md btn btn-donate" href="#donate">{% trans 'ПОЖЕРТВОВАТЬ' %}</a>
+
+            </nav>
         </div>
+    </div>
 
-        <div class="col-md-9 mt-1">
-            <div class="navbar-top ">
-                <nav class="row btn-sm btn-group-sm">
-                    <div id="toogleButton" class="col btn btn-donate"> <img class="img-fluid mr-2" width="10%" src="{% static 'img/menu.gif' %}"> {% trans 'Меню' %}</div>
-                    <a class="col-sm-12 col-md btn nav-btn" href="#about"> {% trans 'О НАС' %} </a>
-                    <a class="col-sm-12 col-md btn nav-btn" href="#work">{% trans 'КАК МЫ РАБОТАЕМ' %}</a>
-                    <a class="col-sm-12 col-md btn nav-btn " href="#where">{% trans 'ГДЕ МЫ РАБОТАЕМ' %}</a>
-                    <a class="col-sm-12 col-md btn nav-btn " href="#media">{% trans 'МЕДИА БЛОГ' %}</a>
-                    <a class="col-sm-12 col-md btn nav-btn" href="#stories">{% trans 'ЖИЗНЕННЫЕ ИСТОРИИ' %}</a>
-                    <a class="col-sm-12 col-md btn btn-donate" href="#donate">{% trans 'ПОЖЕРТВОВАТЬ' %}</a>
+    <div class="col mt-1">
+        <div class="lang-group btn-group btn-sm">
 
-                </nav>
-            </div>
+            <form action="{% url 'set_language' %}" method="post">
+                {% csrf_token %}
+                <input name="language" type="submit" class=" col btn-lang left" value="en"/>
+                <input name="language" type="submit" class="col btn-lang right" value="ru"/>
+            </form>
         </div>
-
-        <div class="col mt-1">
-            <div class="lang-group btn-group btn-sm">
-
-                <form action="{% url 'set_language' %}" method="post">
-                    {% csrf_token %}
-                    <input name="language" type="submit" class=" col btn-lang left" value="en"/>
-                    <input name="language" type="submit" class="col btn-lang right" value="ru"/>
-                </form>
-            </div>
-        </div>
+    </div>
 </div>
 
 

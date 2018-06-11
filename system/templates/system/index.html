@@ -7,6 +7,9 @@
 
 
 
+    {% if LANGUAGE_CODE == 'ru' %}
+        <a class="btn btn-danger btn-floating" href="{% url 'help' %}">Обратиться за помошью</a>
+    {% endif %}
 
     <div class=" block blue jumbotron startpage">
         <div class="row ">
@@ -235,7 +238,8 @@
                             </p>
                         </div>
                         <div class="card-footer">
-                            <a target="_blank" href="https://www.youtube.com/watch?v=8b6gvCPKDLE" class="btn btn-donate">{% trans 'Просмотреть' %}</a>
+                            <a target="_blank" href="https://www.youtube.com/watch?v=8b6gvCPKDLE"
+                               class="btn btn-donate">{% trans 'Посмотреть' %}</a>
                         </div>
                     </div>
                 </div>
@@ -254,7 +258,8 @@
                             </p>
                         </div>
                         <div class="card-footer p-3">
-                            <a target="_blank" href="https://drive.google.com/open?id=1EisLMzoLOrSN8oCog13SZrc0yJBrb4f8" class="btn btn-donate">{% trans 'Просмотреть' %}</a>
+                            <a target="_blank" href="https://drive.google.com/open?id=1EisLMzoLOrSN8oCog13SZrc0yJBrb4f8"
+                               class="btn btn-donate">{% trans 'Узнать больше' %}</a>
                         </div>
                     </div>
                 </div>
@@ -278,7 +283,8 @@
                             </p>
                         </div>
                         <div class="card-footer">
-                            <a target="_blank" href="https://www.youtube.com/watch?v=cfrcxUAzuT8" class="btn btn-donate">{% trans 'Просмотреть' %}</a>
+                            <a target="_blank" href="https://www.youtube.com/watch?v=cfrcxUAzuT8"
+                               class="btn btn-donate">{% trans 'Посмотреть' %}</a>
                         </div>
                     </div>
                 </div>
@@ -299,8 +305,10 @@
 
                             </p>
                         </div>
+
                         <div class="card-footer">
-                            <a target="_blank" href="https://www.youtube.com/watch?v=rNMsmgIWyMI" class="btn btn-donate">{% trans 'Просмотреть' %}</a>
+                            <a target="_blank" href="https://www.youtube.com/watch?v=rNMsmgIWyMI"
+                               class="btn btn-donate">{% trans 'Посмотреть' %}</a>
                         </div>
                     </div>
                 </div>
@@ -318,7 +326,8 @@
                             <p class="card-text">{% trans 'Советы от нашего эксперта, как не стать жертвой торговли людьми, устраиваясь на работу за границу' %}</p>
                         </div>
                         <div class="card-footer">
-                            <a target="_blank" href="https://www.youtube.com/watch?v=IhqZfDkGlZk" class="btn btn-donate">{% trans 'Просмотреть' %}</a>
+                            <a target="_blank" href="https://www.youtube.com/watch?v=IhqZfDkGlZk"
+                               class="btn btn-donate">{% trans 'Посмотреть' %}</a>
                         </div>
                     </div>
                 </div>
@@ -336,14 +345,15 @@
                             <p class="card-text">{% trans 'Доклад от Хьюман Райтс Вотч.Реагирование государства на семейное насилие в Кыргызстане. 28 октября 2015 года' %}</p>
                         </div>
                         <div class="card-footer">
-                            <a target="_blank" href="https://drive.google.com/open?id=1coRiYeSyKXh1Romzx0ihnmsaagpqDu8O" class="btn btn-donate">{% trans 'Просмотреть' %}</a>
+                            <a target="_blank" href="https://drive.google.com/open?id=1coRiYeSyKXh1Romzx0ihnmsaagpqDu8O"
+                               class="btn btn-donate">{% trans 'Узнать больше' %}</a>
                         </div>
                     </div>
                 </div>
             </div>
 
 
-             <div class="row">
+            <div class="row">
 
 
                 <div class="col-md col-sm-12 d-flex">
@@ -359,7 +369,8 @@
                             </p>
                         </div>
                         <div class="card-footer">
-                            <a target="_blank" href="{% trans 'https://www.youtube.com/watch?v=l5p4bv8pOjs&t=1s' %}" class="btn btn-donate">{% trans 'Просмотреть' %}</a>
+                            <a target="_blank" href="{% trans 'https://www.youtube.com/watch?v=l5p4bv8pOjs&t=1s' %}"
+                               class="btn btn-donate">{% trans 'Посмотреть' %}</a>
                         </div>
                     </div>
                 </div>
@@ -381,7 +392,8 @@
                             </p>
                         </div>
                         <div class="card-footer">
-                            <a target="_blank" href="https://www.youtube.com/watch?v=mNEY34AbVPA&t=9s" class="btn btn-donate">{% trans 'Просмотреть' %}</a>
+                            <a target="_blank" href="https://www.youtube.com/watch?v=mNEY34AbVPA&t=9s"
+                               class="btn btn-donate">{% trans 'Посмотреть' %}</a>
                         </div>
                     </div>
                 </div>
@@ -399,7 +411,8 @@
                             <p class="card-text">{% trans 'Пришло время увидеть традицию воровства невест глазами парней. История молодого парня, погубившего судьбу случайной прохожей. Желание создать семью обернулось плохими последствиями...' %}</p>
                         </div>
                         <div class="card-footer">
-                            <a target="_blank" href="{% trans 'https://www.youtube.com/watch?v=H539FAw6Sv0&t=7s' %}" class="btn btn-donate">{% trans 'Просмотреть' %}</a>
+                            <a target="_blank" href="{% trans 'https://www.youtube.com/watch?v=H539FAw6Sv0&t=7s' %}"
+                               class="btn btn-donate">{% trans 'Посмотреть' %}</a>
                         </div>
                     </div>
                 </div>
@@ -417,12 +430,13 @@
                             <p class="card-text">{% trans 'Наше исследование' %}</p>
                         </div>
                         <div class="card-footer">
-                            <a target="_blank" href="https://kaktus.media/doc/367357_pochemy_devochki_v_selah_rano_vyhodiat_zamyj_issledovanie.html" class="btn btn-donate">{% trans 'Просмотреть' %}</a>
+                            <a target="_blank"
+                               href="https://kaktus.media/doc/367357_pochemy_devochki_v_selah_rano_vyhodiat_zamyj_issledovanie.html"
+                               class="btn btn-donate">{% trans 'Узнать больше' %}</a>
                         </div>
                     </div>
                 </div>
             </div>
-
 
 
         </div>
@@ -546,7 +560,7 @@
                         <div class="name h5 text-left ">{% trans 'Рахатай' %}</div>
                         <div class="story">
                             <div class="text-right  font-weight-bold h5">"Stop Vi School"</div>
-                            {% trans 'Когда я начала посещать медиакурсы, я поняла что как много я не знаю об использовании медиа в современном мире. Мы изучали журналистику, навыки фотографии, фотошоп, и многое другое. Сейчас данные навыки я применяю в работе. Благодаря медиашколе я освоила новую профессию, которая помогает мне дальше развиваться.'  %}
+                            {% trans 'Когда я начала посещать медиакурсы, я поняла что как много я не знаю об использовании медиа в современном мире. Мы изучали журналистику, навыки фотографии, фотошоп, и многое другое. Сейчас данные навыки я применяю в работе. Благодаря медиашколе я освоила новую профессию, которая помогает мне дальше развиваться.' %}
                         </div>
                     </div>
                 </div>

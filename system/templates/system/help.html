@@ -1,0 +1,29 @@
+{% extends 'system/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+    <h1 id="work" class="blue">КОНТАКТЫ КРИЗИСНЫХ ЦЕНТРОВ:</h1>
+
+    {% for item in items%}
+    <div class="container white title">
+        <h4 class="p-2">{{ item.name }}</h4>
+        <div class="m-2 p-2">
+            <img src="{% static '/img/location.png' %}" width="35px" alt="" class="mr-2 d-inline img-fluid">
+            <p class="d-inline">{{ item.address }}</p>
+        </div>
+        <div class="m-2 p-2" >
+            <img src="{% static 'img/phone.png' %}" alt="" width="35px" class="mr-2 d-inline img-fluid">
+            <p class="d-inline">{{ item.phone }}</p>
+        </div>
+        <div class="m-2 p-2">
+            <img src="{% static 'img/email.png' %}" alt="" width="35px" class="mr-2 d-inline img-fluid">
+            <p class="d-inline">{{ item.email }}</p>
+        </div>
+        <div class="m-2 p-2">
+            <p class="d-inline">{{ item.description }}</p>
+        </div>
+    </div>
+    {% endfor %}
+
+{% endblock %}

@@ -184,6 +184,15 @@ h1, .h1 {
     border: 2px solid #559ed6;
 }
 
+.btn-floating{
+    z-index: 1;
+    position: fixed;
+    top: 17%;
+    left: 82%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+
+}
+
 .btn-lang:hover {
     border: 2px solid white;
     color: white;
@@ -232,6 +241,9 @@ h1, .h1 {
 .circle {
     margin: 0 auto;
     width: 70%;
+}
+.title{
+    font-family: "American Captain", serif;
 }
 
 .btn-donate:hover {

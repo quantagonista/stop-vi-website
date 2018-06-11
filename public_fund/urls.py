@@ -16,10 +16,11 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 
-from system.views import HomeView
+from system.views import HomeView, HelpView
 
 urlpatterns = [
     url(r'^i18n/', include('django.conf.urls.i18n')),
     url(r'^$', HomeView.as_view(), name='home'),
+    url(r'^help$', HelpView.as_view(), name='help'),
 
 ]
